@@ -1,0 +1,10 @@
+{
+  "schema_version": 1, "kind": "chapter-map", "chapter": 25, "title": "Chapter XXV",
+  "input": {"file": "../../projection/chapters/025-chapter-25.md", "sha256": "8644fb8dc8a7ab8cc36973d12e307645f7f5f7805fc3e44119a9651b05fe3f3d", "source_start": "p002716", "source_end": "p002834"},
+  "summary": "On the eve of the wedding Jane cannot identify with the name or possessions of 'Mrs. Rochester.' She tells Rochester two prophetic dreams: she carries a helpless child while he recedes, then sees Thornfield as a ruin before falling from its wall. More concretely, a terrifying woman entered Jane's room, wore her costly veil, tore it in two, and trampled it. Rochester again attributes the incident to Grace Poole, asks Jane to sleep with Adèle, and postpones his promised explanation until they have been married a year and a day.",
+  "events": ["Jane hesitates to label her luggage for a bridal identity that does not yet feel real.", "Her dreams depict separation from Rochester, a burden she cannot abandon, and ruined Thornfield.", "An unknown woman enters Jane's chamber and destroys the wedding veil.", "Rochester blames Grace Poole and delays full disclosure beyond the wedding."],
+  "characters": [{"name": "Jane Eyre", "development": "Trusts concrete evidence and her apprehension even while accepting Rochester's implausible explanation."}, {"name": "Edward Rochester", "development": "Responds with genuine fear for Jane but preserves his deception at the final opportunity for honest consent."}],
+  "themes": ["prophecy and warning", "fragile identity of the bride", "evidence versus reassurance", "concealed danger"],
+  "threads": [{"status": "developed", "text": "The imprisoned woman reaches Jane directly and symbolically rejects the wedding."}, {"status": "developed", "text": "Rochester's promised disclosure is deliberately postponed until after Jane is bound to him."}, {"status": "opened", "text": "Jane's dream anticipates Thornfield's ruin and separation from Rochester."}],
+  "evidence": ["p002718", "p002780", "p002789", "p002791", "p002806", "p002818", "p002822"]
+}

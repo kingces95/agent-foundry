@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "kind": "chapter-map",
+  "chapter": 16,
+  "title": "Grace Poole and Blanche Ingram",
+  "input": {
+    "file": "../../projection/chapters/016-chapter-16.md",
+    "sha256": "63f552a00d36f69a158344873f147ba376a2451c3c55334abde0a4777490e42e",
+    "source_start": "p001420",
+    "source_end": "p001505"
+  },
+  "summary": "The morning after the fire, the household accepts Rochester's story that a candle ignited his curtains. Grace Poole calmly repairs the room and subtly questions Jane about what she heard and whether she bolts her door. Jane concludes that Grace is guilty but cannot explain why Rochester protects and retains her. Her speculation briefly turns jealous before she admits how eagerly she wants to see Rochester. Instead, he has gone to a fashionable party at the Leas. Mrs. Fairfax describes the beautiful, accomplished, high-born Blanche Ingram and recalls her singing with Rochester. Jane subjects her feelings to severe self-judgment: an obscure, poor, plain governess cannot reasonably expect marriage from her wealthy master. She draws an unflattering self-portrait and an idealized Blanche so that visual comparison will discipline hope into social realism.",
+  "events": [
+    "The household receives a false accidental-fire explanation while Grace Poole resumes ordinary work.",
+    "Grace's controlled questioning convinces Jane she knows more and may threaten her.",
+    "Jane discovers Rochester has left for an extended fashionable gathering.",
+    "Mrs. Fairfax describes Blanche Ingram as Rochester's socially plausible match.",
+    "Jane creates paired portraits to suppress her growing love and expectations."
+  ],
+  "characters": [
+    {"name": "Jane Eyre", "development": "Recognizes romantic attachment but uses art and harsh class logic to police desire before it can expose her."},
+    {"name": "Edward Rochester", "development": "His secrecy about the fire places him in an unexplained relation of dependence or protection toward Grace."},
+    {"name": "Grace Poole", "development": "Displays unnerving self-possession and probes Jane's knowledge while remaining protected at Thornfield."},
+    {"name": "Blanche Ingram", "development": "Introduced in absence as Jane's imagined opposite and Rochester's likely social equal."}
+  ],
+  "themes": [
+    "Class boundaries governing romantic possibility",
+    "Self-surveillance and internalized social judgment",
+    "Art used as emotional discipline",
+    "Secrets maintained by coordinated appearances"
+  ],
+  "threads": [
+    {"status": "developed", "text": "The household conceals the true cause of Rochester's fire and Grace remains unpunished."},
+    {"status": "opened", "text": "Blanche Ingram may become Rochester's bride."},
+    {"status": "developed", "text": "Jane consciously identifies and tries to suppress her love for Rochester."}
+  ],
+  "evidence": ["p001420", "p001431", "p001439", "p001453", "p001456", "p001468", "p001474", "p001494", "p001498", "p001499", "p001500", "p001503"]
+}

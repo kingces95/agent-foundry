@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "kind": "arc-reduction",
+  "arc": 3,
+  "title": "Return, courtship, and the interrupted wedding",
+  "chapters": [21,22,23,24,25,26,27],
+  "inputs": [
+    {"file":"../maps/chapter-21.json","sha256":"a3bd505b06a00eef9a72adf30ecd6fd0c05a63901a0bbc9993fa57230f87f6ab"},
+    {"file":"../maps/chapter-22.json","sha256":"ad6d3585d1b7e4d4503e16ef9ac46da1b12a47230d703b14f8ff1d2abdcedfce"},
+    {"file":"../maps/chapter-23.json","sha256":"0340f20e2e775c273724c79b004761933bd79a798eb440bcce452eeef526e9cd"},
+    {"file":"../maps/chapter-24.json","sha256":"2f2815ff1e289cc6d208cca9e378d88a1a9193da3008a6c69ba4a0685c22aa39"},
+    {"file":"../maps/chapter-25.json","sha256":"53a3c38fdc046bf4757034bb8ae90ab2c2cd034262fe155f3bb435d9307e6605"},
+    {"file":"../maps/chapter-26.json","sha256":"06a696b643c1ac7de7f6bca772a04faf065ce8c5b9dc77de38fd2e40e336109f"},
+    {"file":"../maps/chapter-27.json","sha256":"196628d917925e04a9a9b10e8d8027241b713c9fe0376111a58d8a6af45c02bb"}
+  ],
+  "summary": "Jane returns to Gateshead at the dying Mrs. Reed's request. Unlike the abused child, she can now forgive without denying injury. Mrs. Reed confesses that years earlier she told Jane's wealthy uncle John Eyre that Jane had died, blocking his plan to adopt her. Back at Thornfield, Jane discovers that Rochester experienced her absence as deeply as she did. In the orchard he invents an Irish position and imminent marriage to Blanche until Jane declares that poverty and plainness do not make her an automaton: their spirits are equal, and she is a free human being. Rochester proposes, but warning accompanies joy—his language of atonement, a storm-split chestnut, and the continued secret. During courtship Jane resists jewels, idolatry, financial dependence, and Rochester's manipulation of Blanche. On the wedding eve a strange woman tears Jane's veil, yet Rochester again lies by naming Grace Poole. Briggs and Mason stop the ceremony: Rochester's wife Bertha Mason is alive and confined upstairs. The revelation unifies Thornfield's mysteries and proves that Rochester sought Jane's consent through deception. He explains an arranged Jamaican marriage, Bertha's illness and violence, and his miserable wandering, then asks Jane to live with him abroad. Jane understands his suffering and loves him, but refuses to become his mistress. Principles exist for moments of temptation; to preserve the self he loves, she leaves Thornfield before dawn.",
+  "developments": [
+    "Jane closes the Gateshead wound through forgiveness and reopens the possibility of family through John Eyre.",
+    "The proposal articulates spiritual equality, but courtship shows that economic power and concealment still make practical equality impossible.",
+    "The interrupted wedding turns mystery into a crisis of informed consent; Jane chooses self-respect over love without ceasing to love."
+  ],
+  "character_arcs": [
+    {"name":"Jane Eyre","arc":"Forgives past oppression, claims equality in love, then proves that claim by leaving when marriage would require self-betrayal."},
+    {"name":"Edward Rochester","arc":"Chooses Jane sincerely but attempts to secure her through jealousy, adornment, concealment, and private moral exemption."},
+    {"name":"Bertha Mason Rochester","arc":"Emerges from object of mystery as the living legal and human fact Rochester tried to hide."}
+  ],
+  "themes": ["informed consent", "spiritual equality versus material power", "principle under temptation", "forgiveness, concealment, and consequence"],
+  "carried_threads": ["Jane is homeless and nearly penniless after preserving her conscience.", "John Eyre is gravely ill but has acted to protect her.", "Jane and Rochester remain emotionally bound but cannot reunite on the old terms."],
+  "evidence": ["p002334","p002385","p002462","p002469","p002583","p002806","p002880","p002899","p003062","p003089","p003119"]
+}

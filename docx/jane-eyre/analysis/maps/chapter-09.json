@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "kind": "chapter-map",
+  "chapter": 9,
+  "title": "The epidemic and Helen's death",
+  "input": {
+    "file": "../../projection/chapters/009-chapter-09.md",
+    "sha256": "a6bb768af6ea34a4711ea16dd9cce9212b85e705bf07080b4e6f90c08f9b2470",
+    "source_start": "p000690",
+    "source_end": "p000757"
+  },
+  "summary": "Spring reveals both Lowood's natural beauty and the lethal consequences of its neglect. Typhus spreads through pupils weakened by cold and semi-starvation; forty-five of eighty become ill, and many die. With rules relaxed and Brocklehurst absent, healthy girls receive better food and unusual freedom outdoors while Miss Temple tends the sick. Helen is separated from the fever patients because she has consumption. When Jane learns that Helen is dying, she secretly crosses the sleeping school to Miss Temple's room. Helen faces death calmly, trusting a good Creator and a future reunion. Jane lies beside her, seeking certainty and refusing separation. They fall asleep embracing; by morning Helen is dead. Her eventual grave marker bears the word Resurgam, linking her death to promised resurrection.",
+  "events": [
+    "Typhus exposes the connection between Lowood's unhealthy site, crowding, hunger, and neglected illness.",
+    "Rules collapse during the epidemic, paradoxically giving healthy pupils food and freedom.",
+    "Jane learns Helen's illness is consumption and that she will soon die.",
+    "Jane secretly visits Helen, and they discuss God, death, heaven, and reunion.",
+    "Jane sleeps in Helen's arms and wakes after Helen has died."
+  ],
+  "characters": [
+    {"name": "Jane Eyre", "development": "Confronts death not as a doctrine used to frighten children but as the imminent loss of the person she loves most."},
+    {"name": "Helen Burns", "development": "Her theology of goodness and forgiveness culminates in a peaceful, affectionate acceptance of death."},
+    {"name": "Miss Temple", "development": "Devotes herself to the epidemic's victims and provides Helen a private place of care."}
+  ],
+  "themes": [
+    "Institutional neglect and preventable suffering",
+    "Death, faith, and uncertainty",
+    "Love as presence at the edge of death",
+    "Nature's beauty beside human mortality"
+  ],
+  "threads": [
+    {"status": "resolved", "text": "Helen's foreshadowed illness ends in her death."},
+    {"status": "opened", "text": "The epidemic may force public scrutiny and reform of Lowood."},
+    {"status": "developed", "text": "Helen's moral influence becomes an enduring internal resource for Jane."}
+  ],
+  "evidence": ["p000696", "p000697", "p000703", "p000715", "p000721", "p000738", "p000742", "p000746", "p000756", "p000757"]
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "kind": "chapter-map",
+  "chapter": 6,
+  "title": "Helen Burns's creed",
+  "input": {
+    "file": "../../projection/chapters/006-chapter-06.md",
+    "sha256": "7fcf3ecd0cf885fb07ddbec0d000251463ecccf6ca1e5e3a7a95994270529927",
+    "source_start": "p000486",
+    "source_end": "p000557"
+  },
+  "summary": "Lowood's physical hardship deepens as wash water freezes and food remains scarce. Jane watches Miss Scatcherd criticize Helen Burns despite Helen's intellectual excellence, then flog her for untidiness. Jane's anger at undeserved punishment meets Helen's radically different ethic. Helen accepts that she has faults, distinguishes Miss Scatcherd's severity from Miss Temple's goodness, and argues that retaliation spreads harm while Christian forgiveness frees the injured person from hatred. Jane insists that resistance teaches oppressors to change and cannot imagine loving Mrs. Reed or John. Helen replies that Jane's meticulous record of wrongs keeps those wrongs alive; her faith separates sinner from sin and imagines eternity as hopeful rest rather than terror. Their friendship begins in a debate between justice through resistance and freedom through forgiveness.",
+  "events": [
+    "Jane enters regular classes amid cold and insufficient food.",
+    "Miss Scatcherd ignores Helen's mastery of the lesson and punishes her bodily for untidiness.",
+    "Jane and Helen formally introduce themselves and discuss Lowood, discipline, and education.",
+    "They debate retaliation, Christian love, memory of injury, and forgiveness.",
+    "Helen offers Jane a spiritual framework in which injustice need not determine inner life."
+  ],
+  "characters": [
+    {"name": "Jane Eyre", "development": "Her instinctive moral code remains reciprocal: love kindness, resist cruelty, and strike back hard enough to deter abuse."},
+    {"name": "Helen Burns", "development": "Reveals intellectual depth, self-criticism, inward independence, and a personal theology of universal hope."},
+    {"name": "Miss Scatcherd", "development": "Embodies punitive exactness that notices disorder more readily than intelligence or character."},
+    {"name": "Miss Temple", "development": "Becomes Helen's example of correction joined to reason, generosity, and praise."}
+  ],
+  "themes": [
+    "Resistance versus forgiveness",
+    "Inner freedom under coercion",
+    "The difference between moral correction and humiliation",
+    "Memory, resentment, and spiritual release"
+  ],
+  "threads": [
+    {"status": "developed", "text": "Helen becomes Jane's intellectual and spiritual friend."},
+    {"status": "opened", "text": "Jane must eventually find a relation between self-defense and Helen's refusal of hatred."},
+    {"status": "developed", "text": "Miss Temple represents a form of authority Jane and Helen can respect."}
+  ],
+  "evidence": ["p000487", "p000491", "p000495", "p000517", "p000520", "p000527", "p000538", "p000552", "p000554"]
+}

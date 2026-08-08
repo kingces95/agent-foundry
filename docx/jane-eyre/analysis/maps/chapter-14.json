@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "kind": "chapter-map",
+  "chapter": 14,
+  "title": "Equality, confession, and dangerous reasoning",
+  "input": {
+    "file": "../../projection/chapters/014-chapter-14.md",
+    "sha256": "3394a86150cb1bdaa08c1356b0d6bdf136498242a86fcd92fa54baf2c4a4c685",
+    "source_start": "p001215",
+    "source_end": "p001332"
+  },
+  "summary": "After several distant days, Rochester calls Jane down for conversation and tries to claim authority from age and worldly experience. Jane replies that superiority depends on how experience has been used, not merely possessed. He half-apologizes, asks to set aside conventional forms, and treats her as a rare listener. Rochester confesses that a wrong turn at twenty-one led to dissipation and remorse; he envies Jane's clean conscience but argues that denied happiness gives him a right to pursue a fresh pleasure. Jane warns that pleasure built on an unsanctioned private rule will become bitter. His language remains deliberately enigmatic, but he identifies Jane as a caged, vivid, resolute spirit. Adèle's resemblance to her mother, Céline Varens, then prompts Rochester to hint that guardianship of the child is an act of expiation for his past.",
+  "events": [
+    "Rochester asks Jane to converse as an intellectual companion rather than merely obey as an employee.",
+    "Jane rejects age, experience, and salary as sufficient grounds for moral superiority or insolence.",
+    "Rochester describes a stained past, remorse, and a contemplated source of new pleasure.",
+    "Jane challenges his claim that exceptional circumstances can make an otherwise wrong act right.",
+    "Adèle's performance evokes Céline Varens and Rochester promises a later explanation."
+  ],
+  "characters": [
+    {"name": "Jane Eyre", "development": "Claims moral and conversational equality while remaining conscious of employment and inexperience."},
+    {"name": "Edward Rochester", "development": "Begins using Jane as confidante and conscience while simultaneously testing whether desire can authorize its own rules."},
+    {"name": "Adèle Varens", "development": "Her theatrical habits visibly reproduce those of her mother and connect her to Rochester's remorse."}
+  ],
+  "themes": [
+    "Moral equality versus social hierarchy",
+    "Remorse, reformation, and self-justification",
+    "Confession used to create intimacy",
+    "Freedom constrained by employment and gender"
+  ],
+  "threads": [
+    {"status": "opened", "text": "Rochester is considering a supposedly redemptive pleasure that Jane believes may be morally dangerous."},
+    {"status": "opened", "text": "The history of Céline, Adèle, and Rochester's guardianship awaits explanation."},
+    {"status": "developed", "text": "Rochester recognizes Jane as a moral interlocutor whose approval matters to him."}
+  ],
+  "evidence": ["p001253", "p001261", "p001268", "p001274", "p001280", "p001287", "p001292", "p001307", "p001315", "p001324", "p001332"]
+}

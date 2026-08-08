@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "kind": "chapter-map",
+  "chapter": 22,
+  "title": "Chapter XXII",
+  "input": {"file": "../../projection/chapters/022-chapter-22.md", "sha256": "42e144d9de91f1b2fc15ac9dca4e8597e86ed12a41e33eaeff5dff7192bf5d8d", "source_start": "p002345", "source_end": "p002390"},
+  "summary": "After Mrs. Reed's death, Jane helps her cousins depart and returns toward Thornfield, experiencing for the first time the pull of a place that feels like home. She meets Rochester at the boundary of the estate; his delight, teasing, and description of Thornfield as her home confirm that her absence mattered to him. Jane spontaneously tells him that wherever he is is her only home. Two quiet weeks follow with no sign of the expected Ingram wedding.",
+  "events": [
+    "Eliza leaves for a religious house and Georgiana for London, ending Jane's renewed stay at Gateshead.",
+    "Jane walks from Millcote toward Thornfield, increasingly conscious that Rochester is the true object drawing her home.",
+    "Rochester intercepts Jane at the stile and welcomes her with personal warmth.",
+    "No wedding preparations appear during the fortnight after Jane's return."
+  ],
+  "characters": [
+    {"name": "Jane Eyre", "development": "Names emotional belonging for the first time, locating home in mutual human attachment rather than institution or property."},
+    {"name": "Edward Rochester", "development": "Openly shows that Jane's month-long absence affected him and invites her to regard Thornfield as a friend's home."}
+  ],
+  "themes": ["home as relationship", "return and belonging", "spoken versus concealed affection"],
+  "threads": [
+    {"status": "developed", "text": "Jane and Rochester's attachment becomes harder for either to disguise."},
+    {"status": "developed", "text": "The expected marriage to Blanche fails to materialize."}
+  ],
+  "evidence": ["p002350", "p002356", "p002365", "p002372", "p002385", "p002388"]
+}

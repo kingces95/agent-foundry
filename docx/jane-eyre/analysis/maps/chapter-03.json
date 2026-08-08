@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "kind": "chapter-map",
+  "chapter": 3,
+  "title": "A route out of Gateshead",
+  "input": {
+    "file": "../../projection/chapters/003-chapter-03.md",
+    "sha256": "32dc0f13fde4cc4ba7b0172ea0709b89fc1d21408657bacd3ae5bf890e464c91",
+    "source_start": "p000131",
+    "source_end": "p000226"
+  },
+  "summary": "Jane awakens in the nursery after her collapse, comforted by the independent presence of Mr. Lloyd, an apothecary. Bessie's temporary kindness cannot undo Jane's mental misery; formerly beloved food, pictures, stories, and songs are colored by the red-room trauma. When Mr. Lloyd questions her without Mrs. Reed present, Jane explains that she is unhappy because she is orphaned, abused by John, and treated as having less right to Gateshead than a servant. She rejects unknown poor relations because childhood prejudice makes poverty seem degrading, but embraces the idea of school as escape, education, and a new life. Mr. Lloyd recommends a change of scene. Jane also learns that her clergyman father and socially disobedient mother died of typhus after serving the poor.",
+  "events": [
+    "Jane recovers under Mr. Lloyd's care while the servants acknowledge Mrs. Reed was too severe.",
+    "The red-room experience makes ordinary childhood comforts feel joyless and threatening.",
+    "Jane tells Mr. Lloyd that abuse and exclusion, not physical injury, caused her misery.",
+    "Mr. Lloyd suggests school, giving Mrs. Reed and Jane a possible route to separation.",
+    "Jane learns the history of her parents' marriage, poverty, service, and early deaths."
+  ],
+  "characters": [
+    {"name": "Jane Eyre", "development": "She begins to articulate her unhappiness to an outsider and chooses education as a possible form of liberation."},
+    {"name": "Mr. Lloyd", "development": "Acts as the first adult to investigate Jane's distress rather than accept the Reed household's account."},
+    {"name": "Bessie", "development": "Shows intermittent sympathy, but her affection remains constrained by the household hierarchy and Jane's appearance."}
+  ],
+  "themes": [
+    "The difficulty of expressing childhood suffering",
+    "Education as escape and self-formation",
+    "Poverty, class prejudice, and respectability",
+    "Kindness from people outside the family system"
+  ],
+  "threads": [
+    {"status": "opened", "text": "Jane may be sent away to school."},
+    {"status": "opened", "text": "The Eyre side of Jane's family may still exist, though she knows nothing definite about it."},
+    {"status": "developed", "text": "Bessie's sympathy is real but unreliable and mixed with the household's prejudices."}
+  ],
+  "evidence": ["p000135", "p000151", "p000173", "p000191", "p000198", "p000214", "p000215", "p000220", "p000221"]
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "kind": "chapter-map",
+  "chapter": 17,
+  "title": "Chapter XVII",
+  "input": {
+    "file": "../../projection/chapters/017-chapter-17.md",
+    "sha256": "9378bd387fa5709e55d0ce0b5d2867fc856d388be4ab92ddc917dea85d01eb37",
+    "source_start": "p001506",
+    "source_end": "p001679"
+  },
+  "summary": "Rochester returns to Thornfield with an aristocratic house party headed by Blanche Ingram. Forced into the drawing room with Adèle, Jane studies Blanche's beauty, accomplishments, cruelty, and contempt for governesses while Rochester ostentatiously courts her. Jane recognizes that she loves Rochester but tries to restrain that love through self-respect and class realism; Rochester, meanwhile, repeatedly watches and summons Jane, keeping their private connection alive beneath the social spectacle.",
+  "events": [
+    "Jane disciplines her distress during Rochester's absence and reminds herself of their formal employer-governess relation.",
+    "Rochester arrives with Blanche Ingram and other wealthy guests, reviving the mystery surrounding Grace Poole amid the household preparations.",
+    "Jane and Adèle attend the evening gathering, where Blanche and her mother ridicule governesses in Jane's hearing.",
+    "Rochester publicly attends to Blanche but privately insists that Jane appear each evening and notices when she withdraws."
+  ],
+  "characters": [
+    {"name": "Jane Eyre", "development": "Acknowledges the depth of her attachment while insisting that love must not erase self-respect or social fact."},
+    {"name": "Edward Rochester", "development": "Stages an apparent courtship of Blanche yet maintains an unusually attentive private claim on Jane's presence."},
+    {"name": "Blanche Ingram", "development": "Appears brilliant and beautiful but reveals vanity, class cruelty, and hostility toward dependents such as Jane and Adèle."}
+  ],
+  "themes": [
+    "class hierarchy and the governess's ambiguous status",
+    "self-command under emotional pressure",
+    "appearance versus character",
+    "private intimacy beneath public performance"
+  ],
+  "threads": [
+    {"status": "developed", "text": "Jane's love for Rochester is tested by his apparent pursuit of Blanche."},
+    {"status": "developed", "text": "Grace Poole's unusual privileges confirm that Thornfield's secret is deliberately maintained."},
+    {"status": "opened", "text": "Rochester's courtship behavior may be a performance aimed at an audience that includes Jane."}
+  ],
+  "evidence": ["p001507", "p001530", "p001538", "p001617", "p001648", "p001679"]
+}

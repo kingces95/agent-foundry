@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "kind": "chapter-map",
+  "chapter": 2,
+  "title": "The red-room",
+  "input": {
+    "file": "../../projection/chapters/002-chapter-02.md",
+    "sha256": "09c31ffdbb4a3affbe56039393156b3fb650b06cefdc0c83ebf1171ce8d8ba09",
+    "source_start": "p000080",
+    "source_end": "p000130"
+  },
+  "summary": "Bessie and Miss Abbot confine Jane in the red-room while insisting that her dependence makes her less than a servant and obliges her to be humble. The room is where Mr. Reed died after making Mrs. Reed promise to raise Jane as her own child. Surrounded by mirrors, red furnishings, silence, and the memory of death, Jane reviews the family's injustice and reaches a stark inward verdict: she is oppressed because she lacks beauty, wealth, and social affinity. She imagines escape by flight or self-starvation. Thinking Mr. Reed's spirit might return to avenge his broken wish, she mistakes a moving light for a supernatural sign, panics, and begs release. Mrs. Reed refuses mercy and locks her back inside, where Jane loses consciousness.",
+  "events": [
+    "The servants define Jane's poverty as a moral obligation to accept humiliation.",
+    "Jane learns the red-room is the site of Mr. Reed's death and recalls his unfulfilled protective wish.",
+    "Her analysis of the Reed household crystallizes into the judgment that its treatment is unjust.",
+    "A moving light triggers supernatural terror; Mrs. Reed rejects Jane's plea and Jane collapses."
+  ],
+  "characters": [
+    {"name": "Jane Eyre", "development": "Her rebellion becomes an explicit moral analysis of dependence, unequal power, and injustice."},
+    {"name": "Mrs. Reed", "development": "Her refusal to release a terrified child reveals punishment as control rather than correction."},
+    {"name": "Mr. Reed", "development": "Though dead, his promise establishes that Jane's presence at Gateshead is a right betrayed, not charity freely given."}
+  ],
+  "themes": [
+    "Psychological imprisonment",
+    "The supernatural as an expression of moral terror",
+    "Broken familial obligation",
+    "Rebellion, conscience, and self-preservation"
+  ],
+  "threads": [
+    {"status": "developed", "text": "The red-room becomes a lasting psychological symbol of exclusion and coercion."},
+    {"status": "opened", "text": "Mr. Reed's final promise gives Jane a moral claim against Mrs. Reed."}
+  ],
+  "evidence": ["p000095", "p000101", "p000104", "p000111", "p000116", "p000117", "p000130"]
+}

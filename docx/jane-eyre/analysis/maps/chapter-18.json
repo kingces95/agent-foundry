@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "kind": "chapter-map",
+  "chapter": 18,
+  "title": "Chapter XVIII",
+  "input": {
+    "file": "../../projection/chapters/018-chapter-18.md",
+    "sha256": "24c7b31a79bb57d658e486013a352565d0bacddee8f1a6d4425c2851431e5581",
+    "source_start": "p001680",
+    "source_end": "p001794"
+  },
+  "summary": "The house party turns courtship into theater. In charades Rochester and Blanche enact bridal and other scenes, but Jane sees that Blanche lacks tenderness and that Rochester observes her defects rather than loving her. Richard Mason then arrives from Jamaica, supplying the first concrete link between Rochester and the West Indies. While Rochester is away, a supposed gypsy fortune-teller enters and unsettles Blanche before demanding to see Jane.",
+  "events": [
+    "Rochester and Blanche perform a mock marriage as part of the charade 'Bridewell.'",
+    "Jane distinguishes pain from jealousy because she judges Blanche showy, unoriginal, and incapable of genuine sympathy.",
+    "Richard Mason arrives from Spanish Town, Jamaica, where he knew Rochester.",
+    "A disguised fortune-teller reads Blanche privately, leaves her disappointed, and summons Jane next."
+  ],
+  "characters": [
+    {"name": "Jane Eyre", "development": "Reads the social performance closely and trusts her moral judgment of character despite her inferior rank."},
+    {"name": "Blanche Ingram", "development": "Her apparent romantic advantage is weakened by her mercenary expectations and emotional barrenness."},
+    {"name": "Richard Mason", "development": "Introduced as an amiable visitor whose Jamaican connection points directly toward Rochester's concealed past."}
+  ],
+  "themes": [
+    "courtship as theater",
+    "rank versus moral worth",
+    "observation and interpretation",
+    "the return of the colonial past"
+  ],
+  "threads": [
+    {"status": "developed", "text": "The Rochester-Blanche match looks increasingly strategic rather than loving."},
+    {"status": "opened", "text": "Mason's connection to Rochester in Jamaica links Thornfield's mystery to the West Indies."},
+    {"status": "opened", "text": "The fortune-teller appears to possess intimate knowledge of the household's romantic tensions."}
+  ],
+  "evidence": ["p001689", "p001707", "p001710", "p001739", "p001783", "p001791"]
+}

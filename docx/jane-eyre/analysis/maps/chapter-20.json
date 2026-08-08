@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "kind": "chapter-map",
+  "chapter": 20,
+  "title": "Chapter XX",
+  "input": {
+    "file": "../../projection/chapters/020-chapter-20.md",
+    "sha256": "4241646ca4d071e7296ba39a64ec0ab0fbfae7d49bc52aa7a45c39850e0f823e",
+    "source_start": "p001949",
+    "source_end": "p002129"
+  },
+  "summary": "A midnight cry leads Jane into Thornfield's hidden violence. Rochester orders her to tend the bleeding Mason in silence beside a locked inner room while he fetches a surgeon; Mason later says a woman bit and stabbed him. Rochester removes Mason before dawn and continues blaming Grace Poole. In the orchard he presents Jane with a hypothetical version of his own grave past error and asks whether love may justify crossing a conventional barrier. Jane answers that repentance cannot depend on another human being and defines her loyalty as obedience only in what is right.",
+  "events": [
+    "Mason is attacked in the third-storey chamber, and Rochester suppresses alarm among his guests.",
+    "Jane silently tends Mason while a dangerous woman remains locked in the adjoining room.",
+    "A surgeon treats wounds made by a knife and teeth, and Mason is secretly sent away before sunrise.",
+    "Rochester tests Jane with a moral parable about an old error, a new beloved, and an obstacle he calls merely conventional."
+  ],
+  "characters": [
+    {"name": "Jane Eyre", "development": "Proves brave and dependable but explicitly limits devotion by conscience: she will help Rochester only in what she believes right."},
+    {"name": "Edward Rochester", "development": "Appears as both protector and deceiver, desperate to preserve a secret that obstructs the happiness he seeks through Jane."},
+    {"name": "Richard Mason", "development": "Becomes the wounded witness to the imprisoned woman's violence yet submits to Rochester's demand for secrecy."}
+  ],
+  "themes": [
+    "conscience as a limit on love",
+    "secrecy and containment",
+    "violence beneath domestic order",
+    "repentance versus evasion of consequence"
+  ],
+  "threads": [
+    {"status": "developed", "text": "The concealed woman is violent, is known to Mason, and is managed by Rochester and Grace Poole."},
+    {"status": "developed", "text": "Rochester's past 'error' creates a continuing obstacle to union with the person he sees as regenerative."},
+    {"status": "opened", "text": "Jane's stated refusal to do wrong foreshadows a direct conflict between love and conscience."}
+  ],
+  "evidence": ["p001994", "p002008", "p002022", "p002091", "p002099", "p002107", "p002113"]
+}

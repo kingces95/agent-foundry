@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "kind": "chapter-map",
+  "chapter": 21,
+  "title": "Chapter XXI",
+  "input": {"file": "../../projection/chapters/021-chapter-21.md", "sha256": "14b28c6f4b0412734f915d6f1a466c864d50254037062c360106428da55ddb98", "source_start": "p002130", "source_end": "p002344"},
+  "summary": "After ominous dreams, Jane is summoned to Gateshead because John Reed has died and Mrs. Reed is dying. She returns not as the powerless child who left but with confidence, compassion, and a desire to forgive. Eliza and Georgiana display opposing forms of selfishness, while Mrs. Reed remains hardened. At last Mrs. Reed reveals that Jane's uncle John Eyre wrote from Madeira intending to adopt and enrich her, and that she spitefully replied that Jane had died. Jane offers full forgiveness, but her aunt dies unable to reciprocate.",
+  "events": [
+    "John Reed's ruin and probable suicide precipitate Mrs. Reed's stroke and summons to Jane.",
+    "Jane returns to Gateshead and recognizes that old resentment no longer governs her.",
+    "Jane observes Eliza's rigid self-sufficiency and Georgiana's dependent vanity while caring for their neglected mother.",
+    "Mrs. Reed confesses concealing John Eyre's offer by falsely reporting Jane dead, then dies unreconciled despite Jane's forgiveness."
+  ],
+  "characters": [
+    {"name": "Jane Eyre", "development": "Revisits childhood oppression from a position of inner strength and chooses mercy without denying the wrong done."},
+    {"name": "Mrs. Reed", "development": "Acknowledges two betrayals of her promise yet remains imprisoned by resentment even at death."},
+    {"name": "Eliza and Georgiana Reed", "development": "Embodies sterile independence and helpless vanity respectively, clarifying Jane's more humane self-reliance."}
+  ],
+  "themes": ["forgiveness without reconciliation", "maturity and return", "family betrayal", "self-reliance versus selfishness"],
+  "threads": [
+    {"status": "resolved", "text": "Jane forgives Mrs. Reed and closes the emotional struggle begun at Gateshead, though Mrs. Reed refuses peace."},
+    {"status": "opened", "text": "John Eyre of Madeira may still provide Jane with family connection and an altered fortune."},
+    {"status": "resolved", "text": "John Reed's abusive trajectory ends in ruin and probable suicide."}
+  ],
+  "evidence": ["p002148", "p002250", "p002267", "p002327", "p002334", "p002340"]
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "kind": "chapter-map",
+  "chapter": 12,
+  "title": "The meeting in Hay Lane",
+  "input": {
+    "file": "../../projection/chapters/012-chapter-12.md",
+    "sha256": "ea3c22e7a30bd09c30b18b1d2cbd4d718c71fe0673c1a1249b34e16c3c69f316",
+    "source_start": "p000991",
+    "source_end": "p001069"
+  },
+  "summary": "Jane settles into competent teaching and congenial domestic life, yet safety becomes another form of stagnation. Walking the upper passages, she argues that women need action and scope for their faculties just as men do, while Grace Poole's unexplained sounds continue. On a winter walk to Hay, Jane's imagination casts an approaching dog and horse as the folkloric Gytrash before a plainly human rider breaks the spell by slipping on ice. The dark, stern stranger's roughness frees Jane from conventional shyness; she insists on helping, lets him lean on her, and assists him back onto his horse. The episode pleases her because she has acted rather than merely observed. Returning to Thornfield, she finds the dog Pilot and discovers that the traveler is Edward Rochester, newly arrived after the fall.",
+  "events": [
+    "Jane recognizes that tranquil employment does not satisfy her need for intellectual and experiential action.",
+    "She hears Grace Poole again but receives no fuller explanation.",
+    "A rider and horse fall on the icy Hay Lane, and Jane stays to help despite his brusque manner.",
+    "The stranger questions Jane's relation to Thornfield and accepts her physical support.",
+    "Jane returns to learn that the stranger is Rochester and that his arrival changes the household."
+  ],
+  "characters": [
+    {"name": "Jane Eyre", "development": "States a general claim for women's active capacities and experiences personal usefulness as an antidote to passivity."},
+    {"name": "Edward Rochester", "development": "Enters not as an idealized master but as a fallen, injured, irritable man who must depend on his governess before either knows the other formally."},
+    {"name": "Adèle Varens", "development": "Her steady schooling shows Jane's competence but cannot by itself supply the wider life Jane desires."}
+  ],
+  "themes": [
+    "Women's need for action and intellectual scope",
+    "Usefulness as agency",
+    "Gothic expectation corrected by material reality",
+    "A relationship initiated through temporary reversal of power"
+  ],
+  "threads": [
+    {"status": "resolved", "text": "Jane meets the previously absent owner of Thornfield without knowing his identity."},
+    {"status": "developed", "text": "Rochester's arrival promises the movement Jane has been craving."},
+    {"status": "developed", "text": "Grace Poole's sounds persist without a satisfying explanation."}
+  ],
+  "evidence": ["p000999", "p001000", "p001009", "p001019", "p001021", "p001037", "p001046", "p001052", "p001063"]
+}

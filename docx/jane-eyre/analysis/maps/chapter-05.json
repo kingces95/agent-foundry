@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "kind": "chapter-map",
+  "chapter": 5,
+  "title": "The first day at Lowood",
+  "input": {
+    "file": "../../projection/chapters/005-chapter-05.md",
+    "sha256": "d59bde51957facb79759e26c880c323ecd58c20b60845352dde8a18ec55ad3e1",
+    "source_start": "p000363",
+    "source_end": "p000485"
+  },
+  "summary": "Jane leaves Gateshead before dawn and travels alone to Lowood, where regimented prayers, plain clothing, crowded rooms, cold, and hunger define institutional life. The girls cannot eat their burnt porridge, but the humane superintendent Miss Temple assumes responsibility and orders bread and cheese despite anticipating criticism. In the garden Jane meets an older pupil reading Rasselas. The girl explains that Lowood is a charity school controlled by Mr. Brocklehurst and that Miss Temple must answer to him. Jane observes both the possibility of education and the material cost of a system built to mortify its pupils. Her first day ends still hungry, while the unnamed reader calmly endures public disgrace from Miss Scatcherd.",
+  "events": [
+    "Jane makes the long journey from Gateshead to Lowood without a family escort.",
+    "She encounters Lowood's exhausting schedule, cold conditions, inadequate food, and institutional uniformity.",
+    "Miss Temple replaces the inedible breakfast with bread and cheese.",
+    "Jane meets the older pupil reading Rasselas and learns how Lowood is governed.",
+    "Jane notices the pupil's composed response to Miss Scatcherd's public punishment."
+  ],
+  "characters": [
+    {"name": "Jane Eyre", "development": "Begins her new life as an observer, measuring Lowood's hardship against the educational freedom it may offer."},
+    {"name": "Miss Temple", "development": "Introduced as a morally independent teacher willing to protect the girls within institutional limits."},
+    {"name": "Helen Burns", "development": "Appears first as a serious reader whose inward composure survives public humiliation."},
+    {"name": "Mr. Brocklehurst", "development": "His authority is felt through scarcity and rules even while he is absent."}
+  ],
+  "themes": [
+    "Institutional deprivation",
+    "Education under unequal power",
+    "Humane authority versus punitive authority",
+    "Observation as Jane's means of orientation"
+  ],
+  "threads": [
+    {"status": "opened", "text": "Jane is drawn to the Rasselas reader and her unexplained endurance."},
+    {"status": "opened", "text": "Miss Temple's compassion may counterbalance Brocklehurst's regime."},
+    {"status": "developed", "text": "Lowood offers escape from Gateshead but reproduces domination through hunger, cold, and shame."}
+  ],
+  "evidence": ["p000363", "p000412", "p000426", "p000435", "p000458", "p000483", "p000484"]
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "kind": "chapter-map",
+  "chapter": 13,
+  "title": "Rochester examines Jane",
+  "input": {
+    "file": "../../projection/chapters/013-chapter-13.md",
+    "sha256": "442e5543b33352c1c8511b00c408d1ea0172e155793f18d45e0ebfaec741a7c3",
+    "source_start": "p001070",
+    "source_end": "p001214"
+  },
+  "summary": "Rochester's presence brings the outside world into Thornfield. During a formal evening summons, his abruptness paradoxically puts Jane at ease because it requires no polished social performance. He questions her about presents, origins, Lowood, education, music, and art. Jane answers plainly, refuses to flatter him, and treats praise of Adèle's progress as the gift she values. Rochester is particularly struck by three imaginative watercolors whose storm, drowned body, spectral woman, and polar death-image reveal a mental world larger and darker than Jane's limited experience. He judges her execution imperfect but recognizes authentic invention. Their exchange establishes an unusual relation: he commands as employer, yet seeks her unembellished mind and acknowledges a shared affinity with fairy-tale strangeness.",
+  "events": [
+    "Rochester's return transforms silent Thornfield into an active estate with callers and business.",
+    "Jane and Adèle are summoned to tea, where Rochester tests Jane rather than observing ordinary politeness.",
+    "Jane identifies praise of her pupil's progress as the present she has earned.",
+    "Rochester questions Jane's history and critiques her musical accomplishments.",
+    "He studies Jane's original paintings and recognizes the reach of her imagination."
+  ],
+  "characters": [
+    {"name": "Jane Eyre", "development": "Her reserve coexists with intellectual independence; she can answer a social superior without either submission or theatrical defiance."},
+    {"name": "Edward Rochester", "development": "Shows curiosity about Jane's interior life and prefers candor and originality to conventional accomplishments."},
+    {"name": "Adèle Varens", "development": "Her expectation of gifts contrasts with Jane's desire for earned recognition."}
+  ],
+  "themes": [
+    "Interior imagination versus outward limitation",
+    "Recognition based on work rather than beauty or gifts",
+    "Candor across class hierarchy",
+    "Art as evidence of an unspoken self"
+  ],
+  "threads": [
+    {"status": "opened", "text": "Rochester takes sustained personal interest in Jane beyond her function as governess."},
+    {"status": "developed", "text": "Jane's art reveals Gothic images of danger and death that resonate with Thornfield's hidden unease."},
+    {"status": "developed", "text": "Adèle's connection to Rochester remains only partly explained."}
+  ],
+  "evidence": ["p001072", "p001090", "p001097", "p001104", "p001113", "p001147", "p001169", "p001180", "p001182", "p001184"]
+}

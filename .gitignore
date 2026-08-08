@@ -1,0 +1,4 @@
+*.office-cursor.json
+*.office-cursor.flatopc.xml
+__pycache__/
+*.pyc

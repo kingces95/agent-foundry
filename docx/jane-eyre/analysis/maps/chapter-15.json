@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "kind": "chapter-map",
+  "chapter": 15,
+  "title": "Céline's betrayal and the midnight fire",
+  "input": {
+    "file": "../../projection/chapters/015-chapter-15.md",
+    "sha256": "153db910a9169ea022e0f5ffda0307a68e5e19834433581a97a6daf83a7738f5",
+    "source_start": "p001333",
+    "source_end": "p001419"
+  },
+  "summary": "Rochester tells Jane that he once supported the French dancer Céline Varens, discovered her betraying and ridiculing him, ended the affair, and later took in the abandoned Adèle despite doubting paternity. Jane refuses to hold the parents' conduct against the orphan and becomes more protective of her. Rochester's confidence and attention fill Jane's emotional life; she recognizes his faults yet increasingly associates him with warmth, interest, and possible betterment. That night the strange laugh sounds at Jane's door. She follows smoke to Rochester's room, finds his bed curtains burning, and extinguishes the fire while he sleeps. Rochester privately confirms Grace Poole as the apparent culprit, orders secrecy, and visits the third floor before returning. His intense gratitude and insistence that Jane was destined to do him good deepen their bond while increasing the mystery.",
+  "events": [
+    "Rochester recounts Céline Varens's infidelity and his decision to rescue the abandoned Adèle.",
+    "Jane affirms Adèle's innocence and chooses greater attachment rather than withdrawal.",
+    "Jane acknowledges how strongly Rochester's companionship now animates her life.",
+    "An uncanny laugh precedes a fire set in Rochester's bedroom while he sleeps.",
+    "Jane saves Rochester; he names Grace Poole, demands secrecy, and expresses intimate gratitude."
+  ],
+  "characters": [
+    {"name": "Jane Eyre", "development": "Her sympathy rejects inherited guilt, while her usefulness to Rochester becomes emotionally charged attachment."},
+    {"name": "Edward Rochester", "development": "Reveals one past betrayal, accepts dependence on Jane, and simultaneously conceals the larger danger within his house."},
+    {"name": "Adèle Varens", "development": "Is established as abandoned and possibly unrelated to Rochester, yet morally deserving of care."},
+    {"name": "Grace Poole", "development": "Becomes the official explanation for an apparent attempt on Rochester's life."}
+  ],
+  "themes": [
+    "Children are not answerable for parents' faults",
+    "Rescue and mutual obligation",
+    "Confession mixed with concealment",
+    "Fire as danger, passion, and revelation"
+  ],
+  "threads": [
+    {"status": "resolved", "text": "Rochester explains Céline's betrayal and why he brought Adèle to England."},
+    {"status": "opened", "text": "Why Rochester protects Grace Poole after a lethal act remains unexplained."},
+    {"status": "developed", "text": "Jane and Rochester now share a secret and an acknowledged personal bond."}
+  ],
+  "evidence": ["p001336", "p001350", "p001356", "p001357", "p001364", "p001365", "p001372", "p001375", "p001376", "p001400", "p001407", "p001410"]
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "kind": "arc-reduction",
+  "arc": 1,
+  "title": "Gateshead and Lowood",
+  "chapters": [1,2,3,4,5,6,7,8,9,10],
+  "inputs": [
+    {"file":"../maps/chapter-01.json","sha256":"7b11b4936f5bba595c689d6ef9a12cb8329e4d9e2916d861118ff047580cb4a8"},
+    {"file":"../maps/chapter-02.json","sha256":"88ee5d319f590c6b75e0c9c35681c21a2f2127b4082abe2ede5d3da818e21b2a"},
+    {"file":"../maps/chapter-03.json","sha256":"9f2efe17cf258c00075a2c918116ff21e7e593b9ef3bfb78ebbf23c7e2148610"},
+    {"file":"../maps/chapter-04.json","sha256":"c1a5ffe4ffb108a386d5dcaef2492c23b6d6a141ef085216d3da0dac045cd6b4"},
+    {"file":"../maps/chapter-05.json","sha256":"155811f7878e092cd01893760444df701223f7760f9d701431a805b296aefaed"},
+    {"file":"../maps/chapter-06.json","sha256":"6139c5ec5009661e0d32bcbb76ec347528993be051d99873629599f109589d5d"},
+    {"file":"../maps/chapter-07.json","sha256":"dfd84bf788d2d9c9ee3176acba8cac6e96150ecba1f2fd0be32bb85084a22cdd"},
+    {"file":"../maps/chapter-08.json","sha256":"9d023206063d70363eca32700d747c16f448cc87a809c52145a32f3663949933"},
+    {"file":"../maps/chapter-09.json","sha256":"e1295d266057dd2993da4f5fd5e3a45340a2013e9b5e1165513b676448fc7ca5"},
+    {"file":"../maps/chapter-10.json","sha256":"3167653b79f0ee8f395cd9a908d0ce9c88714d94df1f2ba71d4943de038a5b4d"}
+  ],
+  "summary": "Jane begins as an orphan dependent at Gateshead, excluded by the Reed family and punished whenever she resists abuse. John Reed's assault and the terror of the red-room turn suffering into open revolt; Jane learns to name injustice even when authority calls her deceitful. Mr. Lloyd's intervention sends her to Lowood, but the school reproduces oppression through Brocklehurst's hunger, cold, humiliation, and religious hypocrisy. Two relationships refine Jane's resistance. Helen Burns teaches forgiveness, spiritual scale, and freedom from vengeance, while Miss Temple supplies humane authority and factual vindication. The typhus epidemic exposes Lowood's neglect and brings reform, but Helen dies in Jane's arms. Jane spends eight productive years there, acquiring education and discipline without extinguishing her appetite for action. When Miss Temple leaves, Jane recognizes that her settled identity depended on another's influence. She seeks a new situation and departs for Thornfield: neither submissive nor consumed by resentment, but equipped with conscience, skill, and a will to enlarge her life.",
+  "developments": [
+    "Jane's instinctive revolt against personal tyranny becomes a disciplined commitment to truth and self-respect.",
+    "Lowood converts institutional suffering into education and self-command while exposing counterfeit religious authority.",
+    "Helen's death and Miss Temple's departure teach Jane that love can guide her without permanently containing her."
+  ],
+  "character_arcs": [
+    {"name":"Jane Eyre","arc":"Moves from isolated, furious resistance to educated moral independence and purposeful departure."},
+    {"name":"Helen Burns","arc":"Offers a theology of forgiveness and hope that Jane absorbs without wholly adopting Helen's passivity."},
+    {"name":"Mr. Brocklehurst and Miss Temple","arc":"Opposing models of authority: punitive hypocrisy versus truth joined to care."}
+  ],
+  "themes": ["oppression and resistance", "education as discipline and liberation", "religious hypocrisy versus spiritual integrity", "forgiveness without surrender of truth"],
+  "carried_threads": ["Jane has no acknowledged family or property.", "She wants action beyond institutional routine.", "Her principles now combine fierce self-respect with Helen's enlarged moral perspective."],
+  "evidence": ["p000037","p000116","p000306","p000538","p000694","p000811"]
+}

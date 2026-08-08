@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "kind": "arc-reduction",
+  "arc": 4,
+  "title": "Moor House, inheritance, and St. John",
+  "chapters": [28,29,30,31,32,33,34,35],
+  "inputs": [
+    {"file":"../maps/chapter-28.json","sha256":"073c54510024ea2842ac54730bc929221688c0ddc53b5aa9184d57d0ed7d5312"},
+    {"file":"../maps/chapter-29.json","sha256":"807911f63c70a2090459ac4dadbbed612e37c38eeaf566aab71b2046af3f156b"},
+    {"file":"../maps/chapter-30.json","sha256":"8fda189dc210401798a23d54405788c370dcbf4df9e92e0a8a37058894776f2d"},
+    {"file":"../maps/chapter-31.json","sha256":"d1778dcf5e909cd6c30d9467247d7c248c2af206fec1eab5f885cd5b0e150d49"},
+    {"file":"../maps/chapter-32.json","sha256":"a38066ac66aeadbe78412f80f3f655883fa0e8b17a36c273be0dd2d13a3fec7d"},
+    {"file":"../maps/chapter-33.json","sha256":"86fffdf916155645c9fd72c898c3f7d4efbbd9aecb8fda2569fe96ee6e35de40"},
+    {"file":"../maps/chapter-34.json","sha256":"f5ec9df70eb59d3955ef5a4cb43a2ab3124504a9f65bdad2c375ed6d24775156"},
+    {"file":"../maps/chapter-35.json","sha256":"d0044995bd37959c22bb3f4f143b7fc0aa7fbb774caff1c1cd225d15d983af7b"}
+  ],
+  "summary": "Jane's freedom initially means exposure: without money, references, or a usable name, she starves on the moors and is treated as a suspicious vagrant. At Moor House, Diana and Mary offer instinctive compassion while their brother St. John offers rigorous, practical aid. Under the name Jane Elliott, she accepts a small cottage and village school. Teaching poor girls corrects her own class prejudice and gives her honest work, esteem, and a life preferable to luxurious dependence on Rochester. The Rivers sisters supply the intellectual companionship and affection she has lacked. A chain of apparent accidents then restores identity: St. John finds the name Jane Eyre, learns from Briggs that John Eyre has died, and reveals that Jane has inherited twenty thousand pounds. He, Diana, and Mary are also Jane's cousins. Jane divides the fortune equally, converting money into family, a shared home, and freedom from governess dependence. St. John then becomes a second, opposite temptation. He has rejected Rosamond Oliver and human love for missionary ambition; seeing Jane's discipline, he trains and claims her as a useful wife for India. Jane can imagine heroic work, but a loveless marriage would erase her as surely as becoming Rochester's mistress. St. John's religious certainty almost overwhelms her judgment until she hears Rochester's distant cry. Her answering call breaks his control and sends her to seek facts for herself.",
+  "developments": [
+    "Jane acquires material, vocational, familial, and emotional independence rather than merely the negative freedom of flight.",
+    "The inheritance plot joins apparent strangers into family and lets Jane enact equality by sharing legal wealth.",
+    "St. John's demand tests whether self-abnegating duty can be as destructive as unprincipled passion; Jane chooses her own spiritual discernment."
+  ],
+  "character_arcs": [
+    {"name":"Jane Eyre","arc":"Moves from destitution to work, family, and wealth, then protects her inner freedom from being absorbed into St. John's vocation."},
+    {"name":"St. John Rivers","arc":"Turns real courage and service into an absolute ambition that sacrifices Rosamond and attempts to instrumentalize Jane."},
+    {"name":"Diana and Mary Rivers","arc":"Rescue Jane through fellowship and become the family with whom she shares both affection and independence."}
+  ],
+  "themes": ["positive freedom through work, money, and kinship", "class dignity", "inheritance and distributive justice", "religious vocation versus spiritual autonomy"],
+  "carried_threads": ["Jane can now approach Rochester as her own mistress, not his dependent.", "The mysterious exchange of voices suggests their bond persists across distance.", "St. John will continue to India alone."],
+  "evidence": ["p003179","p003253","p003403","p003456","p003505","p003563","p003700","p003759","p003774","p003911","p003925","p004077"]
+}

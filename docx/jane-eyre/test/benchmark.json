@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "source": {
+    "file": "../source/jane-eyre.docx",
+    "sha256": "dab00f6c677718f26ca34c59c85baa0212604445e76d25ee5b6877946114b35d"
+  },
+  "output": {
+    "file": "jane-eyre-main-characters-bold.docx",
+    "sha256": "801ded82a3590ba095a379bf27395e420e78fe18cd283bed2d1bbefec98d0dc4"
+  },
+  "names": ["Jane", "Rochester", "Edward", "St. John", "Helen", "Bertha"],
+  "occurrences_bolded": {
+    "Jane": 348,
+    "Rochester": 366,
+    "Edward": 23,
+    "St. John": 131,
+    "Helen": 63,
+    "Bertha": 7,
+    "total": 938
+  },
+  "direct_ooxml": {
+    "edit_ms": 480.9,
+    "verification_ms": 418.8,
+    "runs_split": 792,
+    "visible_body_text_unchanged": true,
+    "all_selected_occurrences_bold": true,
+    "word_open_test_ms": 5193.9,
+    "word_open_test_passed": true
+  },
+  "native_word_com_comparison": {
+    "copy_ms": 5.9,
+    "open_ms": 4844.2,
+    "edit_ms": 10258.2,
+    "save_ms": 535.1,
+    "total_process_ms": 28001.2,
+    "usable_as_final": false,
+    "reason": "Opening and saving in Word regenerated the stale table of contents and pagination fields, so the result was not formatting-only."
+  }
+}

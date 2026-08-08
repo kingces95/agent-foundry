@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "kind": "chapter-map",
+  "chapter": 23,
+  "title": "Chapter XXIII",
+  "input": {"file": "../../projection/chapters/023-chapter-23.md", "sha256": "1577cf22c8da46411870c43434a468a28ce8287a7708ea3c8e55a76cc9f15477", "source_start": "p002391", "source_end": "p002518"},
+  "summary": "In the orchard Rochester falsely announces his imminent marriage to Blanche and a job for Jane in Ireland, forcing Jane's restrained grief into speech. She declares that poverty, plainness, and dependence do not make her soulless: before God their spirits are equal, and she is a free person with an independent will. Rochester reveals that Blanche's affection failed his test and proposes to Jane as his equal and likeness. Jane accepts, but Rochester's language of atonement and defiance introduces moral unease; that night lightning splits the chestnut beneath which they became engaged.",
+  "events": [
+    "Rochester tells Jane she must leave for Ireland because he will marry, intensifying the prospect of permanent separation.",
+    "Jane confesses her love of Thornfield and asserts her spiritual equality and independent will.",
+    "Rochester reveals he never loved Blanche, proposes to Jane, and is accepted.",
+    "A storm breaks and lightning splits the horse-chestnut tree."
+  ],
+  "characters": [
+    {"name": "Jane Eyre", "development": "Turns emotional extremity into an explicit claim to equality and freedom before consenting to marriage."},
+    {"name": "Edward Rochester", "development": "Chooses Jane over the aristocratic match but still manipulates her with threatened abandonment and frames the union as atonement for a concealed wrong."},
+    {"name": "Blanche Ingram", "development": "Her courtship is exposed as mutually loveless and dependent on Rochester's supposed fortune."}
+  ],
+  "themes": ["spiritual equality", "freedom and consent", "love across class", "omens and divided union"],
+  "threads": [
+    {"status": "resolved", "text": "Rochester's public pursuit of Blanche is revealed as a test rather than a genuine intended marriage."},
+    {"status": "fulfilled", "text": "Jane and Rochester openly acknowledge their love and become engaged."},
+    {"status": "developed", "text": "Rochester's talk of expiation and defiance signals that the secret obstacle remains active."}
+  ],
+  "evidence": ["p002438", "p002462", "p002469", "p002484", "p002490", "p002508", "p002518"]
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "kind": "arc-reduction",
+  "arc": 2,
+  "title": "Thornfield and the growing mystery",
+  "chapters": [11,12,13,14,15,16,17,18,19,20],
+  "inputs": [
+    {"file":"../maps/chapter-11.json","sha256":"1aa07081bedbb5c18cf0fb068e4179b0896338785b2a72b12c40fa80eddd1b3f"},
+    {"file":"../maps/chapter-12.json","sha256":"8815afa51f659dc1094ac52fa255a2358d61244e73e048811a629a33a92e389a"},
+    {"file":"../maps/chapter-13.json","sha256":"af8c92aed460a5fad9027dd10eeb0dd82e5efc5e31cc26f431dd50f6f0ab9cb1"},
+    {"file":"../maps/chapter-14.json","sha256":"fc57605771d7e46d739773f44ae1e440b766df3b9560f3a44aba88a3a52339da"},
+    {"file":"../maps/chapter-15.json","sha256":"71d16affb0c2eaf1df9e6a3699521472d725fa5f1f160232109e840bbcc35e4b"},
+    {"file":"../maps/chapter-16.json","sha256":"5cfe280b9a09dc769d149cdbe3bb5abf9d599a7a8a920d71d0ef9c5e2bb1d553"},
+    {"file":"../maps/chapter-17.json","sha256":"4ad735cac1e587bdaade4dd70e026d7de6bd7c070ce67c7fd95527b4c9f9172c"},
+    {"file":"../maps/chapter-18.json","sha256":"f613f198b95a3649d9f3e691bd8a326faaeccd830fa6c94379c7ffc42ec96841"},
+    {"file":"../maps/chapter-19.json","sha256":"ab925031952fe07545938a886971bebc88e45392f60a5383afbfefe14318d6c5"},
+    {"file":"../maps/chapter-20.json","sha256":"bf16c89a74db2172a512e5d9300b4c3e451902ac7811c5e4e0651ede21a0afe2"}
+  ],
+  "summary": "At Thornfield Jane becomes Adèle's governess and discovers a household warm enough to feel safe but structured around an unexplained third-storey laugh. Before knowing him as master, she meets Rochester on equal, practical ground when his horse falls. Their conversations then create an intimacy based on intellectual contest rather than beauty or rank: Jane refuses to flatter him, and Rochester is drawn to her judgment, art, and moral clarity. After he recounts his affair with Adèle's mother, Jane saves him from a fire set in his bedroom. He names Grace Poole and demands secrecy, an explanation Jane distrusts but cannot disprove. The arrival of Blanche Ingram and an aristocratic house party makes class hierarchy theatrical; Jane sees Blanche's contempt for governesses and acknowledges her own love while trying to govern it. Charades, Rochester's gypsy disguise, and his staged courtship of Blanche all turn desire into manipulation and performance. Richard Mason's arrival from Jamaica reveals the geographical source of Rochester's fear. When Mason is attacked by a woman in the hidden rooms, Jane helps in silence. Rochester then tests her with a parable about a past error and asks whether new love can justify crossing a merely conventional barrier. Jane answers that she will serve him only in what is right and that one human being cannot be another's moral salvation.",
+  "developments": [
+    "Jane and Rochester develop an affinity based on speech, scrutiny, and mutual challenge, while rank and employment keep their power unequal.",
+    "The Thornfield mystery coheres around a concealed woman, Grace Poole, fire, violence, Jamaica, and Mason's dangerous knowledge.",
+    "Rochester increasingly treats Jane as the means of his regeneration; Jane explicitly places conscience above devotion."
+  ],
+  "character_arcs": [
+    {"name":"Jane Eyre","arc":"Finds intellectual and emotional recognition, falls in love, yet keeps moral judgment active under fascination."},
+    {"name":"Edward Rochester","arc":"Moves from commanding examiner to vulnerable confidant while manipulating appearances to conceal an obstacle he wants Jane to override."},
+    {"name":"Blanche Ingram","arc":"Embodies the socially approved match whose beauty and rank conceal cruelty and mutual mercenary calculation."}
+  ],
+  "themes": ["equality of mind versus inequality of station", "secrecy and interpretation", "appearance as social theater", "conscience as the boundary of love"],
+  "carried_threads": ["The concealed woman and Mason's Jamaican knowledge threaten Rochester's future.", "Jane loves Rochester but has pledged obedience only in what is right.", "Rochester is preparing to treat a legal or social obstacle as morally void."],
+  "evidence": ["p000921","p001014","p001223","p001617","p001739","p001912","p002022","p002099","p002107"]
+}

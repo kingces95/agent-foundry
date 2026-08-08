@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "kind": "chapter-map",
+  "chapter": 10,
+  "title": "Jane makes a path beyond Lowood",
+  "input": {
+    "file": "../../projection/chapters/010-chapter-10.md",
+    "sha256": "e0bc162ad6f64c7a1636855fd25dcd00f3582946d148346476f4a3de714090cd",
+    "source_start": "p000758",
+    "source_end": "p000851"
+  },
+  "summary": "The typhus deaths bring investigation and reform: Lowood receives better buildings, food, clothing, and shared oversight, though Brocklehurst retains a reduced role. Jane spends eight productive years there, six as pupil and two as teacher, with Miss Temple serving as educator, mother, and companion. When Miss Temple marries and leaves, Jane recognizes how much her borrowed serenity depended on that relationship. Restless for liberty but practical about her options, she asks for a new form of service, independently advertises for a governess position, secures references, and accepts Mrs. Fairfax's offer at Thornfield. Bessie visits before her departure, showing that Jane's education has surpassed the Reed sisters' accomplishments and revealing that Jane's uncle, a wine merchant in Madeira, once tried to find her.",
+  "events": [
+    "Public exposure of Lowood's conditions leads to structural reform and reduced Brocklehurst control.",
+    "Jane completes six years as a pupil and two as a teacher under Miss Temple's influence.",
+    "Miss Temple's marriage and departure awaken Jane's desire for a wider life.",
+    "Jane devises and executes an advertisement for a governess position without family assistance.",
+    "Mrs. Fairfax hires her for Thornfield, and Bessie brings news of the Reeds and Jane's Madeira uncle."
+  ],
+  "characters": [
+    {"name": "Jane Eyre", "development": "Turns longing into a concrete, respectable plan and becomes the active agent of her next life transition."},
+    {"name": "Miss Temple", "development": "Her departure reveals both the lasting education she gave Jane and the limits of an identity formed under a beloved mentor."},
+    {"name": "Bessie Leaven", "development": "Returns as an affectionate witness to Jane's growth and a messenger linking her to both Gateshead and the Eyre family."}
+  ],
+  "themes": [
+    "Institutional reform and accountability",
+    "Self-help within social constraints",
+    "Liberty translated into practical independence",
+    "Education as portable capital"
+  ],
+  "threads": [
+    {"status": "resolved", "text": "Jane's Lowood education culminates in competence, employment, and a good institutional reputation."},
+    {"status": "opened", "text": "Jane will enter Thornfield as governess to Mrs. Fairfax's pupil."},
+    {"status": "opened", "text": "A paternal uncle in Madeira sought Jane and may still connect her to the Eyre family."},
+    {"status": "developed", "text": "Jane's desire for freedom is moderated into self-directed work rather than fantasy or dependence."}
+  ],
+  "evidence": ["p000761", "p000763", "p000764", "p000769", "p000773", "p000784", "p000794", "p000799", "p000843", "p000851"]
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "kind": "chapter-map",
+  "chapter": 4,
+  "title": "Jane speaks for herself",
+  "input": {
+    "file": "../../projection/chapters/004-chapter-04.md",
+    "sha256": "41ab298c80db43128b72b1e1e89419f710356b566c74c6fb0a30515e34b45f8b",
+    "source_start": "p000227",
+    "source_end": "p000362"
+  },
+  "summary": "While Jane waits to be sent away, resistance has altered her relation to the Reeds: even John retreats when she defends herself. Mrs. Reed introduces her to Mr. Brocklehurst, the severe clergyman who runs Lowood Institution. Brocklehurst uses fear of hell and a doctrine of humility to judge Jane, while Mrs. Reed brands her deceitful and asks that Lowood keep her isolated even during vacations. After he leaves, Jane directly tells Mrs. Reed that the accusation is false, that she does not love her, and that she will tell others how cruelly she was treated. Mrs. Reed retreats, making this Jane's first moral victory, though triumph gives way to remorse and loneliness. Before Jane departs, Bessie's imperfect affection provides stories, conversation, and a tender farewell.",
+  "events": [
+    "Jane's new willingness to fight back deters John Reed.",
+    "Mr. Brocklehurst examines Jane through threats of damnation and promises to cultivate humiliation at Lowood.",
+    "Mrs. Reed preemptively labels Jane deceitful and arranges that she remain at school during holidays.",
+    "Jane confronts Mrs. Reed with the truth and wins temporary emotional ground.",
+    "Bessie and Jane share a gentler farewell before Jane leaves Gateshead."
+  ],
+  "characters": [
+    {"name": "Jane Eyre", "development": "She discovers that plain truth can defend her identity against an adult's false narrative, even though anger alone does not bring peace."},
+    {"name": "Mrs. Reed", "development": "Attempts to extend control beyond Gateshead by poisoning Jane's reputation at Lowood."},
+    {"name": "Mr. Brocklehurst", "development": "Introduced as an authority who equates poverty, fear, and humiliation with Christian education."},
+    {"name": "Bessie", "development": "Offers Jane the closest thing to familial tenderness available at Gateshead."}
+  ],
+  "themes": [
+    "Truth against imposed identity",
+    "Religious language used as social discipline",
+    "The exhilaration and cost of anger",
+    "Imperfect but sustaining affection"
+  ],
+  "threads": [
+    {"status": "resolved", "text": "Jane is accepted for Lowood and will leave Gateshead."},
+    {"status": "opened", "text": "Mrs. Reed's accusation of deceit may shape Jane's treatment at school."},
+    {"status": "developed", "text": "Jane's resistance succeeds outwardly but does not yet reconcile justice, anger, and inner calm."}
+  ],
+  "evidence": ["p000233", "p000263", "p000291", "p000297", "p000313", "p000325", "p000331", "p000340"]
+}

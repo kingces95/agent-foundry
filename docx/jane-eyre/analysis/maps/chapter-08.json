@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "kind": "chapter-map",
+  "chapter": 8,
+  "title": "Jane's name is cleared",
+  "input": {
+    "file": "../../projection/chapters/008-chapter-08.md",
+    "sha256": "8f01e1c64d8f2c8cfee1891578afaf564d5b8f3714e9fdc74f505522f4820830",
+    "source_start": "p000621",
+    "source_end": "p000689"
+  },
+  "summary": "After the public punishment, Jane collapses into grief and fears that the community she hoped to earn has been permanently lost. Helen brings food and challenges Jane's assumption that Brocklehurst controls everyone's judgment: conscience, not reputation, can preserve innocence. Miss Temple then gives Jane a formal opportunity to defend herself. Jane tells her history carefully, tempering resentment under Helen's influence, and Miss Temple promises to verify it with Mr. Lloyd. In Miss Temple's room, food, warmth, intellectual conversation, and affection create an alternative model of education and community. Helen's cough and Miss Temple's sadness reveal her illness. Mr. Lloyd later corroborates Jane's account; Miss Temple publicly clears her, and Jane turns vindication into disciplined study, advancement, drawing, and French.",
+  "events": [
+    "Helen comforts Jane and separates Brocklehurst's authority from truth or universal opinion.",
+    "Miss Temple hears Jane's defense and writes to Mr. Lloyd for independent corroboration.",
+    "Jane witnesses Helen's intellectual radiance and signs of serious illness in Miss Temple's room.",
+    "Jane destroys the humiliating label Miss Scatcherd makes Helen wear.",
+    "Mr. Lloyd confirms Jane's story; Miss Temple clears her publicly and Jane advances rapidly."
+  ],
+  "characters": [
+    {"name": "Jane Eyre", "development": "Learns to present truth with restraint and to ground identity in conscience, evidence, effort, and chosen relationships."},
+    {"name": "Helen Burns", "development": "Offers spiritual consolation while her cough and Miss Temple's concern foreshadow mortality."},
+    {"name": "Miss Temple", "development": "Models procedural justice: listen to the accused, verify the account, and correct the public record."}
+  ],
+  "themes": [
+    "Conscience versus reputation",
+    "Due process and truthful self-defense",
+    "Affection joined to intellectual cultivation",
+    "Education as earned independence"
+  ],
+  "threads": [
+    {"status": "resolved", "text": "Jane's reputation is publicly cleared of Mrs. Reed's accusation."},
+    {"status": "opened", "text": "Helen's cough and Miss Temple's concern suggest her health is failing."},
+    {"status": "developed", "text": "Jane channels anger and longing into sustained educational achievement."}
+  ],
+  "evidence": ["p000622", "p000631", "p000633", "p000651", "p000656", "p000677", "p000680", "p000684", "p000685", "p000686"]
+}

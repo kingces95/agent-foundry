@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "kind": "arc-reduction",
+  "arc": 5,
+  "title": "Return to Rochester and conclusion",
+  "chapters": [36,37,38],
+  "inputs": [
+    {"file":"../maps/chapter-36.json","sha256":"02c2fbb563f176931858a00d1816e9e7bf6590fdfb98a0d9519f78ebadc4779b"},
+    {"file":"../maps/chapter-37.json","sha256":"a1156329e97e8eb8f4cb6a1e792e81c539291a0fb6f620ec4671739963eadde9"},
+    {"file":"../maps/chapter-38.json","sha256":"8b94d9a66a2a88580b760553e0cd762ded64b1287dff8a8bd6e72c22d12b6e59"}
+  ],
+  "summary": "Jane returns to Thornfield by choice and finds her prophetic dream realized in a blackened ruin. Bertha escaped confinement, burned the house, and died after leaping from its roof. Rochester saved the servants and tried to reach her, but the collapse left him blind and without one hand. Jane goes immediately to secluded Ferndean, where voice and touch restore her to a Rochester who fears she is another dream. She can now state the decisive facts: she is rich, has family, and is her own mistress. She offers companionship not as a dependent governess or pitying nurse but because life with him fits her nature. Rochester, humbled into accepting aid and repentance, proposes again; Jane accepts a lawful, informed union. Their simultaneous accounts of his cry and her answer confirm the mysterious summons that reunited them. Ten years later Jane describes marriage as constant conversation, mutual confidence, and service without servitude. Rochester partially recovers sight and sees their son. Adèle receives a humane education, Diana and Mary make loving marriages, and St. John fulfills his solitary missionary vocation as death approaches. The conclusion does not restore the old Thornfield hierarchy: it builds companionship after Jane has secured every capacity to leave.",
+  "developments": [
+    "Fire destroys the house of concealment and ends Bertha's life, while Rochester's attempted rescue revises his moral position through action and loss.",
+    "Jane returns with alternatives, so the second proposal expresses chosen interdependence rather than economic or psychological capture.",
+    "The conclusion distributes several forms of vocation—marriage, education, family, and mission—without treating self-erasure as the price of Jane's love."
+  ],
+  "character_arcs": [
+    {"name":"Jane Eyre","arc":"Chooses marriage only when care and intimacy can coexist with her established freedom, money, family, and voice."},
+    {"name":"Edward Rochester","arc":"Passes through consequence, disability, dependence, and repentance into a relationship where he can receive as well as give."},
+    {"name":"St. John Rivers","arc":"Pursues the self-consuming vocation Jane refused, heroic and sincere but alone."}
+  ],
+  "themes": ["chosen interdependence", "repentance and mercy", "destruction of oppressive structures", "marriage as freedom in companionship"],
+  "carried_threads": [],
+  "evidence": ["p004112","p004143","p004162","p004228","p004235","p004402","p004417","p004430","p004438","p004461","p004467","p004470"]
+}

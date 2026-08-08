@@ -1,0 +1,10 @@
+{
+  "schema_version": 1, "kind": "chapter-map", "chapter": 29, "title": "Chapter XXIX",
+  "input": {"file": "../../projection/chapters/029-chapter-29.md", "sha256": "d2b03a64c0c562c7cb8e4281bbd2f2971e0e92cc91888ebb672ca9fc89386b49", "source_start": "p003285", "source_end": "p003420"},
+  "summary": "Jane recovers from exhaustion at Moor House. She challenges Hannah's class prejudice rather than accepting gratitude as subordination, and Hannah revises her judgment. Jane finds Diana and Mary congenial but St. John beautiful, reserved, and searching. She gives the siblings a deliberately incomplete but truthful account of Lowood, governess work, sudden flight, and destitution, withholding names that could endanger herself or Rochester. Determined not to live on hospitality, she asks for any honest means of independence; St. John promises humble aid.",
+  "events": ["Jane recovers under the Rivers household's care.", "Jane and Hannah confront the assumption that poverty makes a person less worthy.", "Jane explains as much of her history as safety permits while maintaining the alias Jane Elliott.", "St. John recognizes her desire for independence and promises to find work within his limited sphere."],
+  "characters": [{"name": "Jane Eyre", "development": "Reasserts her natural manner, boundaries, and demand for self-support once immediate survival is secure."}, {"name": "St. John Rivers", "development": "Shows penetration, reserve, and practical duty, offering independence rather than sentimental refuge."}, {"name": "Hannah", "development": "Acknowledges that her suspicion of a beggar became unjust class prejudice."}],
+  "themes": ["truth with necessary privacy", "class prejudice", "hospitality and independence", "character read through appearances"],
+  "threads": [{"status": "developed", "text": "Jane Elliott's concealed identity protects Jane while St. John begins to investigate her history."}, {"status": "opened", "text": "St. John will devise humble employment through which Jane can support herself."}],
+  "evidence": ["p003293", "p003301", "p003350", "p003382", "p003400", "p003403", "p003413", "p003419"]
+}

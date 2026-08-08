@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "kind": "chapter-map",
+  "chapter": 19,
+  "title": "Chapter XIX",
+  "input": {
+    "file": "../../projection/chapters/019-chapter-19.md",
+    "sha256": "c98a6498801d726e052da513058a9ba29fef256f7a58a86dbe8a6cbc5e07ad74",
+    "source_start": "p001795",
+    "source_end": "p001948"
+  },
+  "summary": "Jane faces the gypsy calmly, but the supposed seer probes her feelings for Rochester with uncanny precision and suggests that happiness is available if Jane chooses it. Jane discovers Rochester beneath the disguise and rebukes his masquerade without surrendering her composure. When she reports Mason's arrival from Jamaica, Rochester turns white and momentarily depends on Jane for reassurance before secretly receiving Mason.",
+  "events": [
+    "The fortune-teller analyzes Jane's isolation, hopes, and concealed attention to Rochester.",
+    "Jane suspects a masquerade and discovers that the gypsy is Rochester in disguise.",
+    "Jane tells Rochester that Richard Mason has arrived from Spanish Town.",
+    "Rochester is visibly terrified by the news, asks Jane whether she would stand by him, and arranges a private meeting with Mason."
+  ],
+  "characters": [
+    {"name": "Jane Eyre", "development": "Shows skepticism, composure, and moral independence even while Rochester exposes feelings she does not openly confess."},
+    {"name": "Edward Rochester", "development": "Manipulates the party through disguise, then reveals genuine vulnerability when his Jamaican past enters the house."},
+    {"name": "Richard Mason", "development": "His mere presence proves capable of overturning Rochester's confidence."}
+  ],
+  "themes": [
+    "disguise and psychological exposure",
+    "free choice and uncertain happiness",
+    "power reversed by secret knowledge",
+    "trust under conditions of concealment"
+  ],
+  "threads": [
+    {"status": "resolved", "text": "The fortune-teller is revealed as Rochester, who used the disguise to test Blanche and read Jane."},
+    {"status": "developed", "text": "Mason's Jamaican knowledge is established as a direct threat to Rochester's happiness."},
+    {"status": "developed", "text": "Rochester seeks assurance that Jane would support him if society rejected him."}
+  ],
+  "evidence": ["p001797", "p001861", "p001875", "p001900", "p001912", "p001944"]
+}

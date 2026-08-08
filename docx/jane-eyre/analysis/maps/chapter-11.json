@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "kind": "chapter-map",
+  "chapter": 11,
+  "title": "Arrival at Thornfield",
+  "input": {
+    "file": "../../projection/chapters/011-chapter-11.md",
+    "sha256": "18bcd496a02564b709be427e78ae2750608a6fea19c220e3163ae8082fab328b",
+    "source_start": "p000852",
+    "source_end": "p000990"
+  },
+  "summary": "After an anxious wait at Millcote, Jane reaches Thornfield and is welcomed with unexpected warmth by Mrs. Fairfax. Jane initially assumes the elderly woman owns the estate, then learns she is its housekeeper and a dependent like Jane; the discovery makes their companionship feel equal rather than condescending. Jane's pupil is Adèle Varens, a lively French child and Mr. Rochester's ward, brought from France with her nurse Sophie. The schoolroom is well supplied, and Jane finds Adèle teachable though shallow and accustomed to performance and gifts. Mrs. Fairfax describes Rochester only as the absent, unpredictable proprietor. While touring the grand, old upper floors, Jane hears a strange, mirthless laugh. Mrs. Fairfax attributes it to seamstress Grace Poole, whose ordinary appearance does not resolve the unease.",
+  "events": [
+    "Jane arrives alone at Thornfield and receives a considerate welcome from Mrs. Fairfax.",
+    "She learns Mrs. Fairfax is the housekeeper, Rochester owns Thornfield, and Adèle is his ward.",
+    "Jane begins teaching Adèle and assesses her prior upbringing and abilities.",
+    "Mrs. Fairfax gives Jane an incomplete portrait of the frequently absent Rochester.",
+    "Jane hears an uncanny laugh on the third storey, attributed to Grace Poole."
+  ],
+  "characters": [
+    {"name": "Jane Eyre", "development": "Enters adult employment with caution, gratitude, and a strong preference for relationships of real equality."},
+    {"name": "Mrs. Fairfax", "development": "Introduced as kindly and respectable but limited in curiosity and in her knowledge or disclosure of Rochester."},
+    {"name": "Adèle Varens", "development": "Introduced as an affectionate, theatrical French child shaped by gifts and adult entertainments."},
+    {"name": "Edward Rochester", "development": "Appears indirectly as absent owner, Adèle's guardian, and the organizing mystery of the household."},
+    {"name": "Grace Poole", "development": "Named as the source of unsettling sounds from a secluded part of the house."}
+  ],
+  "themes": [
+    "Social position and genuine equality",
+    "Home as both refuge and mystery",
+    "Education across language and culture",
+    "Appearances that only partly explain hidden realities"
+  ],
+  "threads": [
+    {"status": "opened", "text": "Who Rochester is, why he remains away, and how Adèle became his ward remain unclear."},
+    {"status": "opened", "text": "Grace Poole's laugh and the isolated third storey suggest a concealed household secret."},
+    {"status": "resolved", "text": "Jane's employment is safe, respectable, and socially more comfortable than she feared."}
+  ],
+  "evidence": ["p000876", "p000887", "p000915", "p000917", "p000926", "p000942", "p000944", "p000963", "p000979"]
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "kind": "chapter-map",
+  "chapter": 7,
+  "title": "Brocklehurst's public accusation",
+  "input": {
+    "file": "../../projection/chapters/007-chapter-07.md",
+    "sha256": "fc98e4a9682ae52d35d65391ce5ab54f15eff57bb40d316a6830b84a6db23e70",
+    "source_start": "p000558",
+    "source_end": "p000620"
+  },
+  "summary": "Jane's first winter at Lowood combines difficult lessons with severe cold, inadequate clothing, and hunger that causes older pupils to take food from younger ones. Brocklehurst finally visits and rebukes Miss Temple for replacing inedible meals, arguing that bodily deprivation nourishes the soul. He orders naturally curly hair cut in the name of humility just before his richly dressed, elaborately curled wife and daughters enter, exposing the hypocrisy of his ascetic rules. Jane accidentally drops her slate and is identified. Repeating Mrs. Reed's charge, Brocklehurst places Jane on a stool, declares her a liar and spiritual outcast, orders the school to shun her, and leaves her publicly displayed. Helen's passing look and smile give Jane enough strength to endure the shame upright.",
+  "events": [
+    "Winter deprivation at Lowood produces cold, hunger, illness, and predation among pupils.",
+    "Brocklehurst condemns Miss Temple's efforts to feed children whose breakfast was inedible.",
+    "He demands that girls' natural curls be cut while his own family displays expensive fashion and curled hair.",
+    "Jane's broken slate draws notice and Brocklehurst publicly brands her a liar.",
+    "Helen silently communicates solidarity, enabling Jane to withstand the ordeal."
+  ],
+  "characters": [
+    {"name": "Jane Eyre", "development": "Faces the feared destruction of her reputation but begins to endure public judgment without surrendering her inner account of herself."},
+    {"name": "Mr. Brocklehurst", "development": "His doctrine is revealed as institutional cruelty and class hypocrisy rather than self-denial."},
+    {"name": "Miss Temple", "development": "Protects the girls where she can and quietly resists Brocklehurst's logic, though her office limits open defiance."},
+    {"name": "Helen Burns", "development": "Transforms private friendship into an act of moral support under public pressure."}
+  ],
+  "themes": [
+    "Religious hypocrisy",
+    "Public shame and imposed reputation",
+    "Material deprivation disguised as virtue",
+    "Solidarity as resistance"
+  ],
+  "threads": [
+    {"status": "fulfilled", "text": "Mrs. Reed's accusation reaches Lowood through Brocklehurst."},
+    {"status": "opened", "text": "Jane must clear her name within the school community."},
+    {"status": "developed", "text": "Helen's example begins to make endurance an active form of courage rather than passive defeat."}
+  ],
+  "evidence": ["p000559", "p000582", "p000590", "p000596", "p000602", "p000614", "p000618", "p000620"]
+}

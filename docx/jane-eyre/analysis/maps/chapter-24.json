@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "kind": "chapter-map",
+  "chapter": 24,
+  "title": "Chapter XXIV",
+  "input": {
+    "file": "../../projection/chapters/024-chapter-24.md",
+    "sha256": "f9550aff09bef297747ff14e589c06e925488212d02c039c4d2a9b4724bbac30",
+    "source_start": "p002519",
+    "source_end": "p002715"
+  },
+  "summary": "Rochester tries to transform Jane into a jeweled, aristocratic bride and an idealized angel. Jane resists both ornament and worship because each would replace Jane Eyre with a dependent fantasy. She condemns his calculated use of Blanche's jealousy, asks for honest confidence, and insists on continuing as Adèle's paid governess until marriage so she can support herself. Their playful combat preserves a necessary distance, but Mrs. Fairfax's warning and Rochester's evasiveness keep the engagement morally unstable.",
+  "events": [
+    "Rochester plans a wedding in four weeks and attempts to shower Jane with jewels, dresses, and travel.",
+    "Jane insists that she will be herself rather than an angel or decorated possession.",
+    "Rochester admits he feigned courtship of Blanche to provoke Jane's love.",
+    "Jane refuses financial dependence before marriage and continues earning wages as Adèle's governess."
+  ],
+  "characters": [
+    {
+      "name": "Jane Eyre",
+      "development": "Defends economic and personal identity inside courtship, refusing to let love turn equality into possession."
+    },
+    {
+      "name": "Edward Rochester",
+      "development": "Loves Jane's resistant spirit yet repeatedly tries to master, adorn, and idealize her while withholding the confidence she requests."
+    },
+    {
+      "name": "Mrs. Fairfax",
+      "development": "Voices prudent suspicion about the gulf between Rochester's rank and his governess."
+    }
+  ],
+  "themes": [
+    "economic independence",
+    "identity versus idealization",
+    "power within courtship",
+    "honesty and manipulation"
+  ],
+  "threads": [
+    {
+      "status": "developed",
+      "text": "Jane actively protects the equality on which the engagement was founded."
+    },
+    {
+      "status": "developed",
+      "text": "Rochester still evades the dangerous secret Jane asks him to share."
+    }
+  ],
+  "evidence": [
+    "p002538",
+    "p002546",
+    "p002550",
+    "p002574",
+    "p002583",
+    "p002617",
+    "p002664",
+    "p002711"
+  ]
+}

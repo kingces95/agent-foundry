@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "kind": "chapter-map",
+  "chapter": 1,
+  "title": "The revolt against John Reed",
+  "input": {
+    "file": "../../projection/chapters/001-chapter-01.md",
+    "sha256": "79161e6af2be23a7cd2603815224cdd27938db3f936a2da106ba2a2a2a39c4bc",
+    "source_start": "p000033",
+    "source_end": "p000079"
+  },
+  "summary": "Ten-year-old Jane Eyre is excluded from the Reed family circle at Gateshead and retreats behind a curtain with Bewick's History of British Birds. Her cousin John Reed discovers her, asserts that her dependence deprives her of any right to the family's books or comforts, strikes her, and throws the book at her head. Pain overcomes Jane's habitual fear; she names him a murderer, slave-driver, and Roman tyrant and fights back. Although John initiated the violence, Mrs. Reed and the servants treat Jane's resistance as unnatural passion and carry her away to be locked in the red-room.",
+  "events": [
+    "Mrs. Reed excludes Jane from the family gathering as supposedly unsociable.",
+    "Jane creates a private refuge in reading and imaginative solitude.",
+    "John Reed assaults Jane and invokes her poverty to justify ownership and dominance.",
+    "Jane openly resists John for the first time and is punished rather than protected."
+  ],
+  "characters": [
+    {"name": "Jane Eyre", "development": "Fear and obedience give way to an instinctive declaration that cruelty is unjust."},
+    {"name": "John Reed", "development": "Introduced as an entitled bully whose family power shields his violence."},
+    {"name": "Mrs. Reed", "development": "Interprets Jane's resistance as the offense while ignoring John's abuse."}
+  ],
+  "themes": [
+    "Exclusion and belonging",
+    "Class and economic dependence",
+    "Reading as refuge and imaginative freedom",
+    "Resistance to illegitimate authority"
+  ],
+  "threads": [
+    {"status": "opened", "text": "Jane is sent to the red-room, a punishment associated with death and family memory."},
+    {"status": "opened", "text": "Jane begins to convert private judgments about injustice into speech and action."}
+  ],
+  "evidence": ["p000037", "p000040", "p000061", "p000069", "p000070", "p000075", "p000079"]
+}
