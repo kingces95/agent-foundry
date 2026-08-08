@@ -157,7 +157,7 @@ Get-DocxSchema -Name ParagraphEdit -Path RunFormatting
 
 Its public commands expose package mechanisms, not editorial workflows. See
 [`docs/offline-docx-api.md`](docs/offline-docx-api.md) for the API and the
-rules deliberately retained in the monastic profile.
+rules deliberately retained in project-specific repositories.
 
 Project-specific compositions live outside the core module under
 [`examples/office`](../../examples/office). They may depend on public commands,

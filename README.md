@@ -39,10 +39,9 @@ Get-DocxParagraph -Path manuscript.docx
 Get-DocxSchema
 ```
 
-The [`monastic-manuscript`](examples/office/monastic-manuscript) example keeps
-one editing team's language and policies outside the public modules. The
-[`jane-eyre`](examples/office/jane-eyre) example explores treating a large Word
-document like a searchable source tree.
+The [`jane-eyre`](examples/office/jane-eyre) example explores treating a large
+Word document like a searchable source tree. Real editing projects can remain
+in separate private repositories while composing this pack's public commands.
 
 See [`AGENTS.md`](AGENTS.md) for the harvesting discipline and
 [`packs/office/AGENTS.md`](packs/office/AGENTS.md) for Office-specific safety

@@ -14,7 +14,7 @@ function Get-DocxSchemaData {
         throw "DOCX schema '$Name' is not registered. Available schemas: $available."
     }
     $moduleRoot = Split-Path (Split-Path $PSScriptRoot -Parent) -Parent
-    $schemaPath = Join-Path $moduleRoot "Schema\$($registration.Value.file)"
+    $schemaPath = Join-Path $moduleRoot "Schema/$($registration.Value.file)"
     $schemaJson = Get-Content -LiteralPath $schemaPath -Raw -ErrorAction Stop
     if ($Raw) { return $schemaJson }
     return $schemaJson | ConvertFrom-Json -Depth 100

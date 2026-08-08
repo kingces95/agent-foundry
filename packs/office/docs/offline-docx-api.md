@@ -97,9 +97,8 @@ Export-DocxBodySlice -InputPath input.docx -Slice $slices
 
 ## What deliberately stayed bespoke
 
-The monastic workflow discovered these primitives, but did not donate its
-business rules to the module. These remain under
-`examples/office/monastic-manuscript`:
+A manuscript workflow discovered these primitives, but did not donate its
+business rules to the module. Those remain in the project repository:
 
 - the meanings of EE0000 and FF0000;
 - recognition and wording of red-section markers;
