@@ -1,0 +1,25 @@
+{
+  "$schema": "../../foundry/contracts/pack.schema.json",
+  "schemaVersion": "1.0",
+  "id": "office",
+  "name": "Office Cursor",
+  "version": "0.1.0",
+  "description": "Composable local-agent capabilities for Microsoft Office documents.",
+  "targets": ["Microsoft Word", "DOCX/OOXML"],
+  "entrypoints": [
+    {
+      "kind": "powershell-module",
+      "path": "modules/OfficeCursor.Word/OfficeCursor.Word.psd1",
+      "requires": "Microsoft Word on Windows"
+    },
+    {
+      "kind": "powershell-module",
+      "path": "modules/OfficeCursor.Docx/OfficeCursor.Docx.psd1",
+      "requires": "PowerShell 7.4+ and Python 3"
+    },
+    {
+      "kind": "documentation",
+      "path": "README.md"
+    }
+  ]
+}

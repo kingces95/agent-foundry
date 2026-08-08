@@ -1,6 +1,8 @@
-# Office Cursor: Make Word Documents Look Like Code
+# Agent Foundry: Make Documents Look Like Code
 
-Microsoft Copilot's current Word automation is too slow and unreliable for serious document work. A better solution is to let Codex, ChatGPT, or another capable coding agent automate Word through a representation designed for agents.
+Office Cursor is the first Agent Foundry pack. Its motivating hypothesis is
+that Codex, ChatGPT, or another capable local coding agent can automate Word
+through a representation designed for agents.
 
 The core hypothesis is that a Word document can be projected into a canonical, logical tree that looks like a source-code repository. The agent works against a clone of that representation using familiar filesystem operations: search, inspect, patch, diff, validate, and commit. A deterministic transformation engine then applies the resulting changes back to Word.
 

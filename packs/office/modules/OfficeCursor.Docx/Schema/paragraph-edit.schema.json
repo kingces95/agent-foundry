@@ -1,0 +1,415 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://agent-foundry.local/packs/office/schema/paragraph-edit.schema.json",
+  "x-version": "1.0.0",
+  "title": "Office Cursor DOCX paragraph edit plan",
+  "description": "A nonempty batch of indexed paragraph insertions and deletions.",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "$ref": "#/$defs/edit"
+  },
+  "$defs": {
+    "edit": {
+      "title": "Paragraph edit",
+      "description": "Creates a new paragraph adjacent to an indexed paragraph or deletes the indexed paragraph.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "Action",
+        "Index"
+      ],
+      "properties": {
+        "Action": {
+          "type": "string",
+          "enum": [
+            "InsertBefore",
+            "InsertAfter",
+            "Delete"
+          ],
+          "description": "Inserts a new paragraph before or after the indexed paragraph, or deletes it.",
+          "x-applicableActions": [
+            "InsertBefore",
+            "InsertAfter",
+            "Delete"
+          ],
+          "x-requiredForActions": [
+            "InsertBefore",
+            "InsertAfter",
+            "Delete"
+          ]
+        },
+        "Index": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Paragraph index returned by Get-DocxParagraph.",
+          "x-applicableActions": [
+            "InsertBefore",
+            "InsertAfter",
+            "Delete"
+          ],
+          "x-requiredForActions": [
+            "InsertBefore",
+            "InsertAfter",
+            "Delete"
+          ]
+        },
+        "Text": {
+          "type": "string",
+          "description": "Visible text placed in a newly inserted paragraph.",
+          "x-applicableActions": [
+            "InsertBefore",
+            "InsertAfter"
+          ],
+          "x-requiredForActions": [
+            "InsertBefore",
+            "InsertAfter"
+          ]
+        },
+        "CopyParagraphFormatting": {
+          "type": "boolean",
+          "default": true,
+          "description": "Copies the reference paragraph's paragraph properties before applying overrides.",
+          "x-applicableActions": [
+            "InsertBefore",
+            "InsertAfter"
+          ]
+        },
+        "RunFormatting": {
+          "$ref": "#/$defs/runFormatting",
+          "x-applicableActions": [
+            "InsertBefore",
+            "InsertAfter"
+          ]
+        },
+        "ParagraphFormatting": {
+          "$ref": "#/$defs/paragraphFormatting",
+          "x-applicableActions": [
+            "InsertBefore",
+            "InsertAfter"
+          ]
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "Action": {
+                "const": "Delete"
+              }
+            },
+            "required": [
+              "Action"
+            ]
+          },
+          "then": {
+            "not": {
+              "anyOf": [
+                { "required": ["Text"] },
+                { "required": ["CopyParagraphFormatting"] },
+                { "required": ["RunFormatting"] },
+                { "required": ["ParagraphFormatting"] }
+              ]
+            }
+          },
+          "else": {
+            "required": [
+              "Text"
+            ]
+          }
+        }
+      ]
+    },
+    "runFormatting": {
+      "title": "Run formatting",
+      "description": "Direct formatting applied to all text in the inserted paragraph. Omitted properties inherit.",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "FontName": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Font family applied to Latin, East Asian, and complex-script text."
+        },
+        "FontSizePoints": {
+          "type": "number",
+          "minimum": 1,
+          "maximum": 1638,
+          "description": "Font size in points."
+        },
+        "Bold": {
+          "type": "boolean",
+          "description": "Explicitly enables or disables bold formatting."
+        },
+        "Italic": {
+          "type": "boolean",
+          "description": "Explicitly enables or disables italic formatting."
+        },
+        "Underline": {
+          "type": "string",
+          "enum": [
+            "None",
+            "Single",
+            "Double",
+            "Words"
+          ],
+          "description": "Underline style."
+        },
+        "Color": {
+          "type": "string",
+          "pattern": "^(Auto|[0-9A-F]{6})$",
+          "description": "Auto or a six-digit uppercase hexadecimal RGB color."
+        },
+        "HighlightColor": {
+          "type": "string",
+          "enum": [
+            "None",
+            "Yellow",
+            "BrightGreen",
+            "Turquoise",
+            "Pink",
+            "Blue",
+            "Red",
+            "DarkBlue",
+            "Teal",
+            "Green",
+            "Violet",
+            "DarkRed",
+            "DarkYellow",
+            "Gray50",
+            "Gray25",
+            "Black"
+          ],
+          "description": "Word text highlight color."
+        },
+        "StrikeThrough": {
+          "type": "boolean",
+          "description": "Explicitly enables or disables single strike-through."
+        },
+        "VerticalPosition": {
+          "type": "string",
+          "enum": [
+            "Baseline",
+            "Superscript",
+            "Subscript"
+          ],
+          "description": "Vertical position of the text."
+        }
+      }
+    },
+    "paragraphFormatting": {
+      "title": "Paragraph formatting",
+      "description": "Paragraph-level overrides applied after optional reference-format copying. Measurements are points.",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "Style": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Paragraph style display name or internal style ID."
+        },
+        "Alignment": {
+          "type": "string",
+          "enum": [
+            "Left",
+            "Center",
+            "Right",
+            "Justify"
+          ],
+          "description": "Horizontal paragraph alignment."
+        },
+        "SpaceBeforePoints": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1584,
+          "description": "Space before the paragraph in points."
+        },
+        "SpaceAfterPoints": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1584,
+          "description": "Space after the paragraph in points."
+        },
+        "LineSpacingRule": {
+          "type": "string",
+          "enum": [
+            "Single",
+            "OneAndHalf",
+            "Double",
+            "Multiple",
+            "Exactly",
+            "AtLeast"
+          ],
+          "description": "Word line-spacing rule."
+        },
+        "LineSpacingMultiple": {
+          "type": "number",
+          "minimum": 0.05,
+          "maximum": 132,
+          "description": "Line-height multiplier required when LineSpacingRule is Multiple."
+        },
+        "LineSpacingPoints": {
+          "type": "number",
+          "minimum": 0.05,
+          "maximum": 1584,
+          "description": "Line spacing in points required when LineSpacingRule is Exactly or AtLeast."
+        },
+        "LeftIndentPoints": {
+          "type": "number",
+          "minimum": -1584,
+          "maximum": 1584,
+          "description": "Left paragraph indent in points."
+        },
+        "RightIndentPoints": {
+          "type": "number",
+          "minimum": -1584,
+          "maximum": 1584,
+          "description": "Right paragraph indent in points."
+        },
+        "SpecialIndent": {
+          "type": "string",
+          "enum": [
+            "None",
+            "FirstLine",
+            "Hanging"
+          ],
+          "description": "Word's Special indentation selection."
+        },
+        "SpecialIndentByPoints": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1584,
+          "description": "Indent amount required when SpecialIndent is FirstLine or Hanging."
+        },
+        "KeepWithNext": {
+          "type": "boolean",
+          "description": "Explicitly keeps or does not keep the paragraph with the following paragraph."
+        },
+        "KeepLines": {
+          "type": "boolean",
+          "description": "Explicitly keeps or does not keep the paragraph's lines together."
+        },
+        "PageBreakBefore": {
+          "type": "boolean",
+          "description": "Explicitly enables or disables a page break before the paragraph."
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "LineSpacingRule": {
+                "const": "Multiple"
+              }
+            },
+            "required": [
+              "LineSpacingRule"
+            ]
+          },
+          "then": {
+            "required": [
+              "LineSpacingMultiple"
+            ]
+          }
+        },
+        {
+          "if": {
+            "required": [
+              "LineSpacingMultiple"
+            ]
+          },
+          "then": {
+            "required": [
+              "LineSpacingRule"
+            ],
+            "properties": {
+              "LineSpacingRule": {
+                "const": "Multiple"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "LineSpacingRule": {
+                "enum": [
+                  "Exactly",
+                  "AtLeast"
+                ]
+              }
+            },
+            "required": [
+              "LineSpacingRule"
+            ]
+          },
+          "then": {
+            "required": [
+              "LineSpacingPoints"
+            ]
+          }
+        },
+        {
+          "if": {
+            "required": [
+              "LineSpacingPoints"
+            ]
+          },
+          "then": {
+            "required": [
+              "LineSpacingRule"
+            ],
+            "properties": {
+              "LineSpacingRule": {
+                "enum": [
+                  "Exactly",
+                  "AtLeast"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "SpecialIndent": {
+                "enum": [
+                  "FirstLine",
+                  "Hanging"
+                ]
+              }
+            },
+            "required": [
+              "SpecialIndent"
+            ]
+          },
+          "then": {
+            "required": [
+              "SpecialIndentByPoints"
+            ]
+          }
+        },
+        {
+          "if": {
+            "required": [
+              "SpecialIndentByPoints"
+            ]
+          },
+          "then": {
+            "required": [
+              "SpecialIndent"
+            ],
+            "properties": {
+              "SpecialIndent": {
+                "enum": [
+                  "FirstLine",
+                  "Hanging"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

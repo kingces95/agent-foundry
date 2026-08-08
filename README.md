@@ -1,42 +1,49 @@
-# Office Cursor
+# Agent Foundry
 
-Office Cursor is an experiment in giving local coding agents a discoverable,
-scriptable interface to the live Microsoft Word object model.
+Agent Foundry is a seed repository for teaching local coding agents to operate
+the software people already use, grow project-specific workflows from real
+requests, and harvest the reusable mechanisms back into public capability packs.
 
-The first usable artifacts are two deliberately small PowerShell modules:
+```text
+natural-language request
+        -> bespoke example workflow
+        -> application-native operation
+        -> verified result
+        -> reusable capability harvested into a pack
+```
 
-- [`OfficeCursor.Word`](powershell/OfficeCursor.Word) controls a running Word
-  instance through COM.
-- [`OfficeCursor.Docx`](powershell/OfficeCursor.Docx) inspects and transforms
-  closed DOCX packages without starting Word.
+The repository has three layers:
 
-They are precedents—not complete abstractions. Codex can inspect their public
-commands, private helpers, help text, and conventions, then extend the library
-when a manuscript-editing task reveals another reusable capability.
+- [`foundry`](foundry) defines shared pack contracts and contribution rules.
+- [`packs`](packs) contains reusable, discoverable application capabilities.
+- [`examples`](examples) contains concrete projects where new capabilities are
+  discovered and exercised.
+
+## First pack: Office Cursor
+
+[`packs/office`](packs/office) gives local agents a scriptable interface to
+Microsoft Word and DOCX files. Its two deliberately small PowerShell modules
+are precedents rather than exhaustive wrappers:
+
+- `OfficeCursor.Word` controls a running Word instance through COM.
+- `OfficeCursor.Docx` inspects and transforms closed DOCX packages through
+  OOXML without starting Word.
 
 ```powershell
-Import-Module .\powershell\OfficeCursor.Word\OfficeCursor.Word.psd1
-
-Get-Command -Module OfficeCursor.Word
+Import-Module .\packs\office\modules\OfficeCursor.Word\OfficeCursor.Word.psd1
 Get-WordOpenDocument
 Set-WordFontColor -FromColor Red -ToColor Blue -WhatIf
 
-Import-Module .\powershell\OfficeCursor.Docx\OfficeCursor.Docx.psd1
+Import-Module .\packs\office\modules\OfficeCursor.Docx\OfficeCursor.Docx.psd1
 Get-DocxParagraph -Path manuscript.docx
+Get-DocxSchema
 ```
 
-See [`powershell/README.md`](powershell/README.md) for the current command set
-and the conventions new commands should follow. See
-[`docs/architecture.md`](docs/architecture.md) for the boundary between private
-COM primitives, public Word capabilities, and bespoke editing-team workflows.
+The [`monastic-manuscript`](examples/office/monastic-manuscript) example keeps
+one editing team's language and policies outside the public modules. The
+[`jane-eyre`](examples/office/jane-eyre) example explores treating a large Word
+document like a searchable source tree.
 
-The first project-specific seed is
-[`powershell/Bespoke/MonasticManuscript`](powershell/Bespoke/MonasticManuscript).
-
-Large-document experiments live under [`docx`](docx). The first fixture projects
-the complete Jane Eyre DOCX into a hashed paragraph ledger and searchable
-chapter Markdown files so Git and Codex can treat a book like a source tree.
-The measured editing results and operational guidance for future agents are in
-[`docs/large-docx-editing-lessons.md`](docs/large-docx-editing-lessons.md).
-The conservative offline API and its promotion test are documented in
-[`docs/offline-docx-api.md`](docs/offline-docx-api.md).
+See [`AGENTS.md`](AGENTS.md) for the harvesting discipline and
+[`packs/office/AGENTS.md`](packs/office/AGENTS.md) for Office-specific safety
+and API conventions.
