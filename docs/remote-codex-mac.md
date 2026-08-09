@@ -158,9 +158,18 @@ Codex Remote starts the remote Codex app server through the SSH user's login
 shell. The `codex` command must be available on `PATH` in that environment.
 
 1. Use the account's existing shell. Do not change it merely for Codex Remote.
-2. If Codex is missing, stop and request approval for the specific official
-   native macOS installation method. Do not invent an installer, install a
-   second package manager, or copy authentication files from another computer.
+2. If Codex is missing, stop and request approval to use the official native
+   macOS installer. Run it from the Mac user's interactive Terminal session
+   with process substitution so standard input remains attached to the terminal:
+
+   ```bash
+   bash <(curl -fsSL https://chatgpt.com/codex/install.sh)
+   ```
+
+   This form is preferred here over `curl ... | sh` because a pipe occupies
+   standard input and can fail when the installer needs terminal input. Do not
+   invent another installer, install a second package manager, or copy
+   authentication files from another computer.
 3. Have the selected Mac user authenticate Codex interactively on this Mac.
    Never request or transfer their login token through chat.
 4. Determine the actual Codex executable directory after installation.
@@ -277,6 +286,176 @@ The client-side procedure must:
    ```
 
 Do not recommend `StrictHostKeyChecking=no`.
+
+## Common stumbling blocks and resolutions
+
+Work through these layers in order. A successful DNS lookup does not prove SSH
+authentication, and successful SSH authentication does not prove that Codex
+Remote can launch Codex.
+
+### Do not reverse the two public-key directions
+
+Two unrelated public keys are involved:
+
+- The **client user's public key** belongs in the selected Mac user's
+  `~/.ssh/authorized_keys`. This grants the client access to the Mac.
+- The **Mac SSH server's public host key** belongs in the client's
+  `known_hosts`. This lets the client verify that it reached the intended Mac.
+
+Publishing or installing the Mac's host key does not grant login access. Putting
+the Mac user's public key on the client would grant access in the opposite
+direction. State the direction and purpose before installing either key.
+
+### Stabilize the address before depending on DNS
+
+If the Mac receives its address through DHCP, prefer a router-side reservation
+for its current interface MAC address over manually assigning an address in
+macOS. Before committing a reservation:
+
+1. Inspect the subnet, dynamic pool, current lease, and existing mappings.
+2. Preserve the Mac's current address when it is conflict-free.
+3. Follow the router's existing mapping-name and address-allocation conventions.
+4. Confirm that macOS's private Wi-Fi address for the network will remain stable.
+5. Renew the lease or reconnect only if the address actually needs to change.
+
+For EdgeOS, inspect first:
+
+```text
+show dhcp leases
+show configuration commands | match "service dhcp-server"
+```
+
+Then use the native configuration CLI, replacing every placeholder with an
+inspected value:
+
+```text
+configure
+set service dhcp-server shared-network-name NETWORK subnet SUBNET static-mapping NAME ip-address IP
+set service dhcp-server shared-network-name NETWORK subnet SUBNET static-mapping NAME mac-address MAC
+commit
+save
+exit
+```
+
+Do not edit EdgeOS-managed Linux files directly. Verify the saved mapping from a
+new operational-mode session.
+
+### Use the authoritative DNS server
+
+The Mac does not need to be domain joined for a static DNS record. Create an A
+record on the DNS server authoritative for the local zone after reserving the
+address. Add a PTR record only when the corresponding reverse zone exists.
+
+Do not put the record only on a secondary resolver when clients query another
+server first. A negative answer from the first server generally does not cause a
+client to retry the name against its secondary server.
+
+For Windows DNS, a typical static A record is:
+
+```powershell
+Add-DnsServerResourceRecordA `
+  -ZoneName "INTERNAL_ZONE" `
+  -Name "MAC_NAME" `
+  -IPv4Address "RESERVED_IP"
+```
+
+Verify both the authoritative server and the client's normal resolver:
+
+```powershell
+Resolve-DnsName MAC_FQDN -Type A -Server DNS_SERVER
+Resolve-DnsName MAC_FQDN -Type A
+```
+
+The Mac's Bonjour name, such as `Mac-Name.local`, requires no domain join but is
+normally limited to the local multicast segment. Do not depend on `.local` across
+a routed VPN unless multicast forwarding was deliberately designed and tested.
+
+### Verify a published host key against the live Mac
+
+A published host public key is a trust anchor, not a discovery mechanism. After
+DNS resolves, retrieve the live key without trusting it yet and compare its type,
+key material, and SHA256 fingerprint with the copy obtained through the trusted
+publication channel:
+
+```sh
+ssh-keyscan -T 5 -t ed25519 MAC_FQDN
+ssh-keygen -lf MAC_HOST_PUBLIC_KEY_FILE
+```
+
+Only after the fingerprints match should the client install a `known_hosts`
+record of this form:
+
+```text
+MAC_FQDN ssh-ed25519 PUBLIC_KEY_MATERIAL
+```
+
+Use `ssh-keygen -F MAC_FQDN` to check an existing entry. A key file containing
+only `ssh-ed25519 PUBLIC_KEY_MATERIAL` is valid public-key material but is not a
+complete `known_hosts` record until the approved hostname is prepended.
+
+### Use the Mac's POSIX short username
+
+The SSH `User` value is the selected Mac account's short name, not its display
+name, computer name, DNS name, or Apple Account address. Determine it on the Mac:
+
+```sh
+id -un
+```
+
+An otherwise correct key produces `Permission denied` when tested against the
+wrong account because `authorized_keys` is per-user. Confirm the exact account
+before changing keys or authentication settings.
+
+### Inspect the effective client alias
+
+Add a concrete alias only after the FQDN, username, identity file, and host key
+are known:
+
+```text
+Host MAC_ALIAS
+  HostName MAC_FQDN
+  User MAC_SHORT_USERNAME
+  IdentityFile ~/.ssh/id_ed25519
+  IdentitiesOnly yes
+```
+
+Use the client's effective-config command to catch a misspelled alias or an
+unexpected inherited setting:
+
+```sh
+ssh -G MAC_ALIAS
+ssh -o BatchMode=yes -o StrictHostKeyChecking=yes MAC_ALIAS 'id -un; hostname'
+```
+
+If the alias authenticates but is absent from Codex Remote, refresh the Codex
+SSH target list and confirm that Codex reads the same user's SSH config file.
+
+### Codex is installed but an SSH command cannot find it
+
+An interactive installer may add Codex to a login-shell path while a direct SSH
+command receives only the system path. Diagnose both contexts:
+
+```sh
+ssh MAC_ALIAS 'printf "SHELL=%s\nPATH=%s\n" "$SHELL" "$PATH"; command -v codex || true'
+ssh MAC_ALIAS '$SHELL -lc "command -v codex; codex --version"'
+```
+
+If the first command fails and the login-shell command succeeds:
+
+- Record the actual executable path; do not assume the installation directory.
+- Inspect the selected account's configured shell and the startup files it
+  actually reads.
+- Do not assume that adding `~/.local/bin` to `.bashrc` fixes direct macOS SSH
+  commands; test it. Some macOS SSH/Bash combinations do not read `.bashrc` for
+  that invocation.
+- Do not create a global symlink, change the user's login shell, or edit
+  `sshd_config` merely to make a diagnostic command pass.
+- Test the real Codex Remote connection. Its login-shell launch can succeed even
+  when a raw `ssh HOST 'command -v codex'` probe does not.
+
+Treat the target as complete only when strict host verification, key-only login,
+the intended Mac account, Codex discovery through the launch context, and a
+harmless Codex Remote directory open all succeed.
 
 ## Verification ceremony
 
